@@ -12,10 +12,15 @@ public class PopupFunctions : MonoBehaviour
 {
     [SerializeField] private int testScene;
 
-    public void TestLoadScene()
+    public async void TestLoadScene()
     {
-        SceneManager.LoadSceneAsync(testScene, LoadSceneMode.Additive);
+        await SceneManager.LoadSceneAsync(testScene, LoadSceneMode.Additive);
         Scene s = SceneManager.GetSceneAt(SceneManager.sceneCount - 1);
         print(s.name);
+        Camera[] test = GameObject.FindObjectsByType<Camera>(FindObjectsSortMode.None);
+        foreach(Camera c in test)
+        {
+            Debug.Log(c.gameObject.scene.handle == s.handle);
+        }
     }
 }
