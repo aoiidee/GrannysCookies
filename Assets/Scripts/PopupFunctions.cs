@@ -7,10 +7,12 @@
 *****************************************************************************/
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Rendering.Universal;
 
 public class PopupFunctions : MonoBehaviour
 {
     [SerializeField] private int testScene;
+    [SerializeField] private RenderTexture rt;
 
     public async void TestLoadScene()
     {
@@ -20,7 +22,10 @@ public class PopupFunctions : MonoBehaviour
         Camera[] test = GameObject.FindObjectsByType<Camera>(FindObjectsSortMode.None);
         foreach(Camera c in test)
         {
-            Debug.Log(c.gameObject.scene.handle == s.handle);
+            if(c.gameObject.scene.handle == s.handle)
+            {
+                c.targetTexture = rt;
+            }
         }
     }
 }
