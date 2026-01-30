@@ -1,3 +1,10 @@
+/*****************************************************************************
+// File Name : PopupFunctions.cs
+// Author : Pierce Nunnelley
+// Creation Date : January 30, 2026
+//
+// Brief Description : This script allows a UI element to be clicked + dragged.
+*****************************************************************************/
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -8,19 +15,17 @@ public class DraggableUIElement : MonoBehaviour, IBeginDragHandler, IDragHandler
     private Vector2 offset;
     void IBeginDragHandler.OnBeginDrag(PointerEventData eventData)
     {
-        //throw new System.NotImplementedException();
         offset = (Vector2)gameObject.GetComponent<RectTransform>().position - eventData.position;
     }
 
     void IDragHandler.OnDrag(PointerEventData eventData)
     {
-        //throw new System.NotImplementedException();
         SetDraggedPosition(eventData);
     }
 
     void IEndDragHandler.OnEndDrag(PointerEventData eventData)
     {
-        //throw new System.NotImplementedException();
+        offset = Vector2.zero;
     }
 
     private void SetDraggedPosition(PointerEventData eventData)
@@ -32,11 +37,5 @@ public class DraggableUIElement : MonoBehaviour, IBeginDragHandler, IDragHandler
     void Start()
     {
         parentCanvas = gameObject.GetComponentInParent<Canvas>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
