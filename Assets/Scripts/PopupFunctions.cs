@@ -10,10 +10,10 @@ using UnityEngine.SceneManagement;
 
 public class PopupFunctions : MonoBehaviour
 {
-    [SerializeField] private Scene testScene;
+    [SerializeField] private int testScene;
 
     public void TestLoadScene()
     {
-        SceneManager.LoadSceneAsync(testScene.buildIndex, LoadSceneMode.Additive);
+        SceneManager.LoadSceneAsync(testScene, LoadSceneMode.Additive);
     }
 }
