@@ -906,7 +906,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0e7e37bafc7e194982d77a9d9c5d81c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PopupFunctions
-  testScene: 0
+  testScene: 2
 --- !u!1 &1501381762
 GameObject:
   m_ObjectHideFlags: 0

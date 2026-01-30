@@ -15,5 +15,7 @@ public class PopupFunctions : MonoBehaviour
     public void TestLoadScene()
     {
         SceneManager.LoadSceneAsync(testScene, LoadSceneMode.Additive);
+        Scene s = SceneManager.GetSceneAt(SceneManager.sceneCount - 1);
+        print(s.name);
     }
 }
