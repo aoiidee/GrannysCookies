@@ -281,7 +281,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 184871956}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &184871958
 Camera:
   m_ObjectHideFlags: 0
@@ -545,7 +545,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &317412534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1662,6 +1662,7 @@ GameObject:
   - component: {fileID: 1043209801}
   - component: {fileID: 1043209803}
   - component: {fileID: 1043209802}
+  - component: {fileID: 1043209804}
   m_Layer: 5
   m_Name: CaptchaPanel
   m_TagString: Untagged
@@ -1729,6 +1730,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1043209800}
   m_CullTransparentMesh: 1
+--- !u!114 &1043209804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043209800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e51302a5053d17469688c6d113bcd0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DraggableUIElement
 --- !u!1001 &1063445208
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3436,7 +3449,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 184871958}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1

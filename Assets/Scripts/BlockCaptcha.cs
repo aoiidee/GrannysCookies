@@ -64,8 +64,15 @@ public class BlockCaptcha : MonoBehaviour
     }
     private void EndCaptcha()
     {
-        captchaGO.SetActive(false); 
+        captchaGO.SetActive(false);
         //SetUpBlocks();  
-        cycle.StartCaptcha();   
+        try
+        {
+            FindAnyObjectByType<PopupFunctions>().KillScene(gameObject);
+        }
+        catch
+        {
+            cycle.StartCaptcha();
+        }
     }
 }

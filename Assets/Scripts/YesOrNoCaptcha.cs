@@ -93,7 +93,15 @@ public class YesOrNoCaptcha : MonoBehaviour
     public void EndCaptcha()
     {
         captchaGO.SetActive(false);
-        currentQuestion = 0;    
-        cycle.StartCaptcha();   
+        currentQuestion = 0;
+        try
+        {
+            FindAnyObjectByType<PopupFunctions>().KillScene(gameObject);
+        }
+        catch
+        {
+            cycle.StartCaptcha();
+        }
+           
     }
 }
