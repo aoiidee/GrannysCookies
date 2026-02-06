@@ -93,6 +93,7 @@ public class YesOrNoCaptcha : MonoBehaviour
     public void EndCaptcha()
     {
         captchaGO.SetActive(false);
+        currentQuestion = 0;    
         cycle.StartCaptcha();   
     }
 }
