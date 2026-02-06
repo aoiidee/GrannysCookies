@@ -28,4 +28,9 @@ public class PopupFunctions : MonoBehaviour
             }
         }
     }
+
+    public void KillScene(GameObject s)
+    {
+        SceneManager.UnloadSceneAsync(s.scene);
+    }
 }
