@@ -13,9 +13,20 @@ public class DraggableUIElement : MonoBehaviour, IBeginDragHandler, IDragHandler
 {
     private Canvas parentCanvas;
     private Vector2 offset;
+
+    public Canvas ParentCanvas { get => parentCanvas; set => parentCanvas = value; }
+
     void IBeginDragHandler.OnBeginDrag(PointerEventData eventData)
     {
         offset = (Vector2)gameObject.GetComponent<RectTransform>().position - eventData.position;
+        try
+        {
+            FindAnyObjectByType<PopupFunctions>().SetTargetPopup(this);
+        }
+        catch
+        {
+            Debug.LogWarning("Failed to set as target popup!");
+        }
     }
 
     void IDragHandler.OnDrag(PointerEventData eventData)
@@ -37,5 +48,6 @@ public class DraggableUIElement : MonoBehaviour, IBeginDragHandler, IDragHandler
     void Start()
     {
         parentCanvas = gameObject.GetComponentInParent<Canvas>();
+        print(parentCanvas.name);
     }
 }
