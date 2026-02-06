@@ -19,12 +19,11 @@ public class PopupFunctions : MonoBehaviour
 
     private List<int> loadedPopupIDs = new List<int>();
 
-    private RectTransform targetPopup;
+    private DraggableUIElement targetPopup;
 
     [SerializeField] private float _clearance = 50;
 
-    public RectTransform TargetPopup { get => targetPopup; set => targetPopup = value; }
-
+    public DraggableUIElement TargetPopup { get => targetPopup; set => targetPopup = value; }
     public async void TestLoadScene()
     {
         GameObject g = Instantiate(_testPrefab, Vector2.down * (_clearance * loadedPopupIDs.Count), Quaternion.identity);
@@ -42,11 +41,9 @@ public class PopupFunctions : MonoBehaviour
         }*/
     }
 
-    public void SetTargetPopup(RectTransform target)
+    public void SetTargetPopup(DraggableUIElement target)
     {
-        //targetPopup.GetComponentInParent<Canvas>().sortingOrder = 0;
         targetPopup = target;
-        //targetPopup.GetComponentInParent<Canvas>().sortingOrder = _targetPopupHeight;
     }
 
     public void KillScene(GameObject s)

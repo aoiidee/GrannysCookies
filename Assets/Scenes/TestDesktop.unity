@@ -1835,6 +1835,8 @@ MonoBehaviour:
   _testPrefab: {fileID: 1021833742419701812, guid: ebf22802aaf5a7c45bfeb1f868a8f954, type: 3}
   testScene: 2
   rt: {fileID: 8400000, guid: d935d2c10bbbb1744b958e6c2154161c, type: 2}
+  _targetPopupHeight: 5
+  _clearance: 50
 --- !u!1 &1501381762
 GameObject:
   m_ObjectHideFlags: 0
