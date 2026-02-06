@@ -7,18 +7,6 @@ public class LoginHandler : MonoBehaviour
     [SerializeField] private string _password;
     [SerializeField] private GameObject _content;
     [SerializeField] private TMP_InputField _passwordBox;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void CheckPassword()
     {
         
