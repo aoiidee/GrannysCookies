@@ -14,6 +14,8 @@ public class PopupFunctions : MonoBehaviour
     [SerializeField] private int testScene;
     [SerializeField] private RenderTexture rt;
 
+    private RectTransform targetPopup;
+
     public async void TestLoadScene()
     {
         await SceneManager.LoadSceneAsync(testScene, LoadSceneMode.Additive);
@@ -27,6 +29,11 @@ public class PopupFunctions : MonoBehaviour
                 c.targetTexture = rt;
             }
         }
+    }
+
+    public void SetTargetPopup(RectTransform target)
+    {
+        targetPopup = target;
     }
 
     public void KillScene(GameObject s)
