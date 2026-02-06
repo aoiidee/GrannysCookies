@@ -16,6 +16,8 @@ public class PopupFunctions : MonoBehaviour
 
     private RectTransform targetPopup;
 
+    public RectTransform TargetPopup { get => targetPopup; set => targetPopup = value; }
+
     public async void TestLoadScene()
     {
         await SceneManager.LoadSceneAsync(testScene, LoadSceneMode.Additive);

@@ -16,6 +16,15 @@ public class DraggableUIElement : MonoBehaviour, IBeginDragHandler, IDragHandler
     void IBeginDragHandler.OnBeginDrag(PointerEventData eventData)
     {
         offset = (Vector2)gameObject.GetComponent<RectTransform>().position - eventData.position;
+
+        try
+        {
+            FindAnyObjectByType<PopupFunctions>().SetTargetPopup(gameObject.GetComponent<RectTransform>());
+        }
+        catch
+        {
+            Debug.LogWarning("Failed to set as target popup!");
+        }
     }
 
     void IDragHandler.OnDrag(PointerEventData eventData)
