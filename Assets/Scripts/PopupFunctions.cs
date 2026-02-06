@@ -28,7 +28,7 @@ public class PopupFunctions : MonoBehaviour
         {
             if(c.gameObject.scene.handle == s.handle)
             {
-                c.targetTexture = rt;
+                //c.targetTexture = rt;
             }
         }
     }
