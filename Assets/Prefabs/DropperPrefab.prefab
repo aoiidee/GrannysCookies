@@ -27,7 +27,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2134163342218455215}
   - {fileID: 8871958902697321531}
@@ -242,6 +242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DropBlocks
   stackingBlock: {fileID: 5584989002391970660, guid: 21154cc82f35d0747b6b3c5a09ee4354, type: 3}
+  dropBlockPrefab: {fileID: 482271037878296060}
   dropperSpeed: 4
   leftPoint: {x: -3, y: 4}
   rightPoint: {x: 3, y: 4}
