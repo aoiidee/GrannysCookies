@@ -12,7 +12,7 @@ using UnityEngine.Rendering.Universal;
 
 public class PopupFunctions : MonoBehaviour
 {
-    [SerializeField] private GameObject _testPrefab;
+    [SerializeField] private GameObject[] _testPrefabs;
     [SerializeField] private int testScene;
     [SerializeField] private RenderTexture rt;
     [SerializeField] private int _targetPopupHeight = 5;
@@ -26,7 +26,7 @@ public class PopupFunctions : MonoBehaviour
     public DraggableUIElement TargetPopup { get => targetPopup; set => targetPopup = value; }
     public async void TestLoadScene()
     {
-        GameObject g = Instantiate(_testPrefab, Vector2.down * (_clearance * loadedPopupIDs.Count), Quaternion.identity);
+        GameObject g = Instantiate(_testPrefabs[Random.Range(0, _testPrefabs.Length)], Vector2.down * (_clearance * loadedPopupIDs.Count), Quaternion.identity);
         loadedPopupIDs.Add(g.GetInstanceID());
         /*await SceneManager.LoadSceneAsync(testScene, LoadSceneMode.Additive);
         Scene s = SceneManager.GetSceneAt(SceneManager.sceneCount - 1);
@@ -48,6 +48,20 @@ public class PopupFunctions : MonoBehaviour
 
     public void KillScene(GameObject s)
     {
-        SceneManager.UnloadSceneAsync(s.scene);
+        if(s == null)
+        {
+            Debug.LogError("Failed to kill minigame-- root not found");
+            return;
+        }
+        else if(loadedPopupIDs.Contains(s.GetInstanceID()))
+        {
+            loadedPopupIDs.Remove(s.GetInstanceID());
+            Destroy(s);
+            
+        }
+        else
+        {
+            KillScene(s.transform.parent.gameObject);
+        }
     }
 }
