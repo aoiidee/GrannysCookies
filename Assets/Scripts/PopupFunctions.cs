@@ -48,6 +48,20 @@ public class PopupFunctions : MonoBehaviour
 
     public void KillScene(GameObject s)
     {
-        SceneManager.UnloadSceneAsync(s.scene);
+        if(s == null)
+        {
+            Debug.LogError("Failed to kill minigame-- root not found");
+            return;
+        }
+        else if(loadedPopupIDs.Contains(s.GetInstanceID()))
+        {
+            loadedPopupIDs.Remove(s.GetInstanceID());
+            Destroy(s);
+            
+        }
+        else
+        {
+            KillScene(s.transform.parent.gameObject);
+        }
     }
 }

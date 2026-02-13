@@ -8,6 +8,14 @@ public class EndLineScript : MonoBehaviour
     [SerializeField] private float distance; 
     private void EndGame()
     {
+        try
+        {
+            FindAnyObjectByType<PopupFunctions>().KillScene(gameObject);
+        }
+        catch
+        {
+            Debug.LogWarning("Unable to find Popupfunctions!");
+        }
         print("Done");
     }
     void Update()
