@@ -3,6 +3,34 @@
     "name": "InputSystem_Actions",
     "maps": [
         {
+            "name": "Desktop",
+            "id": "c224f3a3-9fac-4b53-a51c-01e075afec72",
+            "actions": [
+                {
+                    "name": "Aim",
+                    "type": "Value",
+                    "id": "0dd803d1-be72-41b8-b9da-218467023a74",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b34537fe-d78a-47b9-bca3-760ca37e36d1",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Aim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
             "name": "Player",
             "id": "df70fa95-8a34-4494-b137-73ab6b9c7d37",
             "actions": [
