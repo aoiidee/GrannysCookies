@@ -7,7 +7,7 @@ public class DuckHuntManager : MonoBehaviour
     [SerializeField] private float spawnRate;
     [SerializeField] private float spawnOffset;
 
-    [SerializeField] private int score;
+    [SerializeField] public int duckScore;
     [SerializeField] private int reqScore;
     private int filler;
 
@@ -36,9 +36,13 @@ public class DuckHuntManager : MonoBehaviour
     //checks id reqScore has been obtained
     void Update()
     {
-        if (score >= reqScore)
+        if (duckScore >= reqScore)
         {
             filler = 100;
         }
+    }
+    public void AddScore()
+    {
+        duckScore++;
     }
 }
