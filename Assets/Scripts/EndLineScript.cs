@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 using static UnityEngine.Analytics.IAnalytic;
 
@@ -8,6 +9,7 @@ public class EndLineScript : MonoBehaviour
     [SerializeField] private float distance; 
     private void EndGame()
     {
+        print("Done");
         try
         {
             FindAnyObjectByType<PopupFunctions>().KillScene(gameObject);
@@ -16,7 +18,6 @@ public class EndLineScript : MonoBehaviour
         {
             Debug.LogWarning("Unable to find Popupfunctions!");
         }
-        print("Done");
     }
     void Update()
     {

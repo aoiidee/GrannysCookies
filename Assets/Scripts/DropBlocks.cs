@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 public class DropBlocks : MonoBehaviour
 {
     [SerializeField] private GameObject stackingBlock;
+    [SerializeField] private GameObject dropBlockPrefab;
     [SerializeField] private float dropperSpeed;
     [SerializeField] private Vector2 leftPoint;
     [SerializeField] private Vector2 rightPoint;
@@ -22,7 +23,8 @@ public class DropBlocks : MonoBehaviour
     {
         if(canDrop)
         {
-            Instantiate(stackingBlock, transform.position, Quaternion.identity);
+            GameObject temp = Instantiate(stackingBlock, transform.position, Quaternion.identity);
+            temp.transform.parent = dropBlockPrefab.transform;
             canDrop = false;
             StartCoroutine(DropDelay());
         }
