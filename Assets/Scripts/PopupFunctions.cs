@@ -79,8 +79,7 @@ public class PopupFunctions : MonoBehaviour
         }
         else
         {
-            GetObjectRoot(s.transform.parent.gameObject);
+            return GetObjectRoot(s.transform.parent.gameObject);
         }
-        return null;
     }
 }

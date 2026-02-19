@@ -18,16 +18,18 @@ public class DraggableUIElement : MonoBehaviour, IBeginDragHandler, IDragHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        try
-        {
+        //try
+        //{
             GameObject root = FindAnyObjectByType<PopupFunctions>().GetObjectRoot(this.gameObject);
-            print(eventData.position);
-            root.BroadcastMessage("AdjustedClick", eventData.position);
-        }
-        catch
-        {
-
-        }
+        print(root);
+            //print(root.name);
+            //print(eventData.position);
+            //root.BroadcastMessage("AdjustedClick", eventData.position);
+        //}
+        //catch
+        //{
+           // print("oopsies");
+       // }
     }
 
     void IBeginDragHandler.OnBeginDrag(PointerEventData eventData)
