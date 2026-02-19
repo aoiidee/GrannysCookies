@@ -20,7 +20,9 @@ public class DraggableUIElement : MonoBehaviour, IBeginDragHandler, IDragHandler
     {
         try
         {
-            FindAnyObjectByType<PopupFunctions>().GetObjectRoot(this.gameObject);
+            GameObject root = FindAnyObjectByType<PopupFunctions>().GetObjectRoot(this.gameObject);
+            print(eventData.position);
+            root.BroadcastMessage("AdjustedClick", eventData.position);
         }
         catch
         {
