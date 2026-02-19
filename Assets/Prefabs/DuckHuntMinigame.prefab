@@ -200,6 +200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36121b22ed0c5bd4d95e0e1c951876ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TestPointerTranslation
+  c: {fileID: 4081960540352002732}
 --- !u!1 &4221291233759499282
 GameObject:
   m_ObjectHideFlags: 0

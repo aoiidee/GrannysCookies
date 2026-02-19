@@ -18,18 +18,16 @@ public class DraggableUIElement : MonoBehaviour, IBeginDragHandler, IDragHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        //try
-        //{
+        try
+        {
             GameObject root = FindAnyObjectByType<PopupFunctions>().GetObjectRoot(this.gameObject);
-        print(root);
-            //print(root.name);
-            //print(eventData.position);
-            //root.BroadcastMessage("AdjustedClick", eventData.position);
-        //}
-        //catch
-        //{
-           // print("oopsies");
-       // }
+            RectTransformUtility.ScreenPointToLocalPointInRectangle(gameObject.GetComponent<RectTransform>(), eventData.position, eventData.pressEventCamera, out Vector2 relativePos);
+            root.BroadcastMessage("AdjustedClick", (relativePos / gameObject.GetComponent<RectTransform>().sizeDelta) + (Vector2.one * 0.5f));
+        }
+        catch
+        {
+            print("oopsies");
+        }
     }
 
     void IBeginDragHandler.OnBeginDrag(PointerEventData eventData)
