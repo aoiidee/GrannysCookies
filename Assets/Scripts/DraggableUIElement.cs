@@ -9,12 +9,24 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class DraggableUIElement : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
+public class DraggableUIElement : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerClickHandler
 {
     private Canvas parentCanvas;
     private Vector2 offset;
 
     public Canvas ParentCanvas { get => parentCanvas; set => parentCanvas = value; }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        try
+        {
+            FindAnyObjectByType<PopupFunctions>().GetObjectRoot(this.gameObject);
+        }
+        catch
+        {
+
+        }
+    }
 
     void IBeginDragHandler.OnBeginDrag(PointerEventData eventData)
     {

@@ -10,6 +10,11 @@ public class DesktopController : MonoBehaviour
 
     public void OnAim(InputValue iVal)
     {
-        mousePosition = iVal.Get<Vector2>() / new Vector2(Screen.width, Screen.height);
-    }    
+        mousePosition = iVal.Get<Vector2>();
+    }
+    
+    public void OnClick()
+    {
+
+    }
 }
