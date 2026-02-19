@@ -30,10 +30,10 @@ public class DuckScript : MonoBehaviour
         }
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
-            Vector2 worldPos = Camera.main.ScreenToWorldPoint(
-                Mouse.current.position.ReadValue()
-            );
-
+            //Vector2 worldPos = Camera.main.ScreenToWorldPoint(
+            //Mouse.current.position.ReadValue()
+            //);
+            Vector2 worldPos = huntManager.AdjustedMouseClickPos;
             RaycastHit2D hit = Physics2D.Raycast(worldPos, Vector2.zero);
 
             if (hit.collider != null)
