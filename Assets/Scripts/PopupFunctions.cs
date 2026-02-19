@@ -64,4 +64,22 @@ public class PopupFunctions : MonoBehaviour
             KillScene(s.transform.parent.gameObject);
         }
     }
+
+    public GameObject GetObjectRoot(GameObject s)
+    {
+        if (s == null)
+        {
+            Debug.LogError("Failed to find minigame root-- root not found");
+            return null;
+        }
+        else if (loadedPopupIDs.Contains(s.GetInstanceID()))
+        {
+            return (s);
+
+        }
+        else
+        {
+            return GetObjectRoot(s.transform.parent.gameObject);
+        }
+    }
 }

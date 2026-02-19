@@ -9,12 +9,26 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class DraggableUIElement : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
+public class DraggableUIElement : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerClickHandler
 {
     private Canvas parentCanvas;
     private Vector2 offset;
 
     public Canvas ParentCanvas { get => parentCanvas; set => parentCanvas = value; }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        try
+        {
+            GameObject root = FindAnyObjectByType<PopupFunctions>().GetObjectRoot(this.gameObject);
+            RectTransformUtility.ScreenPointToLocalPointInRectangle(gameObject.GetComponent<RectTransform>(), eventData.position, eventData.pressEventCamera, out Vector2 relativePos);
+            root.BroadcastMessage("AdjustedClick", (relativePos / gameObject.GetComponent<RectTransform>().sizeDelta) + (Vector2.one * 0.5f));
+        }
+        catch
+        {
+            print("oopsies");
+        }
+    }
 
     void IBeginDragHandler.OnBeginDrag(PointerEventData eventData)
     {

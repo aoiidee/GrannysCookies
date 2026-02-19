@@ -12,6 +12,18 @@ public class DuckHuntManager : MonoBehaviour
     private int filler;
 
     [SerializeField] private GameObject cookie;
+
+    private Vector2 adjustedMouseClickPos = Vector2.zero;
+
+    [SerializeField] private Camera c;
+
+    public Vector2 AdjustedMouseClickPos { get => adjustedMouseClickPos; set => adjustedMouseClickPos = value; }
+
+    public void AdjustedClick(Vector2 pos)
+    {
+        Vector2 testPos = c.ScreenToWorldPoint(pos * new Vector2(c.pixelWidth, c.pixelHeight));
+        adjustedMouseClickPos = testPos;
+    }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
