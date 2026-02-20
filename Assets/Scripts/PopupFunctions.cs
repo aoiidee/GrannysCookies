@@ -23,11 +23,14 @@ public class PopupFunctions : MonoBehaviour
 
     [SerializeField] private float _clearance = 50;
 
+    private int popupCount = 0;
+
     public DraggableUIElement TargetPopup { get => targetPopup; set => targetPopup = value; }
     public async void TestLoadScene()
     {
-        GameObject g = Instantiate(_testPrefabs[Random.Range(0, _testPrefabs.Length)], Vector2.down * (_clearance * loadedPopupIDs.Count), Quaternion.identity);
+        GameObject g = Instantiate(_testPrefabs[Random.Range(0, _testPrefabs.Length)], Vector2.down * (_clearance * popupCount), Quaternion.identity);
         loadedPopupIDs.Add(g.GetInstanceID());
+        popupCount++;
         /*await SceneManager.LoadSceneAsync(testScene, LoadSceneMode.Additive);
         Scene s = SceneManager.GetSceneAt(SceneManager.sceneCount - 1);
         print(s.name);
