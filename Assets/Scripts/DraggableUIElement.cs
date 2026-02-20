@@ -13,8 +13,10 @@ public class DraggableUIElement : MonoBehaviour, IBeginDragHandler, IDragHandler
 {
     private Canvas parentCanvas;
     private Vector2 offset;
+    [SerializeField] private bool _draggable = true;
 
     public Canvas ParentCanvas { get => parentCanvas; set => parentCanvas = value; }
+    public bool Draggable { get => _draggable; set => _draggable = value; }
 
     public void OnPointerClick(PointerEventData eventData)
     {
@@ -32,7 +34,12 @@ public class DraggableUIElement : MonoBehaviour, IBeginDragHandler, IDragHandler
 
     void IBeginDragHandler.OnBeginDrag(PointerEventData eventData)
     {
-        offset = (Vector2)gameObject.GetComponent<RectTransform>().position - eventData.position;
+        if(Draggable)
+        {
+            offset = (Vector2)gameObject.GetComponent<RectTransform>().position - eventData.position;
+            
+        }
+
         try
         {
             FindAnyObjectByType<PopupFunctions>().SetTargetPopup(this);
@@ -45,12 +52,14 @@ public class DraggableUIElement : MonoBehaviour, IBeginDragHandler, IDragHandler
 
     void IDragHandler.OnDrag(PointerEventData eventData)
     {
-        SetDraggedPosition(eventData);
+        if (Draggable)
+            SetDraggedPosition(eventData);
     }
 
     void IEndDragHandler.OnEndDrag(PointerEventData eventData)
     {
-        offset = Vector2.zero;
+        if (Draggable)
+            offset = Vector2.zero;
     }
 
     private void SetDraggedPosition(PointerEventData eventData)
