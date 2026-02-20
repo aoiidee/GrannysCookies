@@ -11,6 +11,7 @@ public class DuckScript : MonoBehaviour
     [SerializeField] private float maxUpForce;
     [SerializeField] private GameObject duck;
     [SerializeField] private AudioClip hitSound;
+    [SerializeField] private GameObject spawnPoint;
 
     [SerializeField] private DuckHuntManager huntManager;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -24,7 +25,7 @@ public class DuckScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (duck.transform.position.y <= -10)
+        if (duck.transform.position.y < spawnPoint.transform.position.y-100)
         {
             Destroy(this.gameObject);
         }

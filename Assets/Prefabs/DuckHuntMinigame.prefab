@@ -182,10 +182,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DuckHuntManager
   spawnPoint: {fileID: 2036690467550922742}
+  gameManager: {fileID: 4221291233759499282}
   spawnRate: 0.5
   spawnOffset: 16
   duckScore: 0
   reqScore: 5
+  filler: 0
   cookie: {fileID: 6544272947192814366, guid: 2625dad4d94d931499e2898c9ae6e3d2, type: 3}
   c: {fileID: 4081960540352002732}
 --- !u!1 &4221291233759499282
@@ -423,3 +425,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e51302a5053d17469688c6d113bcd0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DraggableUIElement
+  _draggable: 1
