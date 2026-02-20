@@ -31,17 +31,6 @@ public class PopupFunctions : MonoBehaviour
         GameObject g = Instantiate(_testPrefabs[Random.Range(0, _testPrefabs.Length)], Vector2.down * (_clearance * popupCount), Quaternion.identity);
         loadedPopupIDs.Add(g.GetInstanceID());
         popupCount++;
-        /*await SceneManager.LoadSceneAsync(testScene, LoadSceneMode.Additive);
-        Scene s = SceneManager.GetSceneAt(SceneManager.sceneCount - 1);
-        print(s.name);
-        Camera[] test = GameObject.FindObjectsByType<Camera>(FindObjectsSortMode.None);
-        foreach(Camera c in test)
-        {
-            if(c.gameObject.scene.handle == s.handle)
-            {
-                //c.targetTexture = rt;
-            }
-        }*/
     }
 
     public void SetTargetPopup(DraggableUIElement target)
