@@ -34,6 +34,7 @@ public class AudioManager : MonoBehaviour
     public void SwitchMusic(int index)
     {
         _musicSource.clip = _musicClips[index];
+        _musicSource.Play();
     }
 
     public static void PlaySound(string soundID)

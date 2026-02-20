@@ -948,6 +948,18 @@ MonoBehaviour:
           m_StringArgument: tadaa
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2126585385}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: SwitchMusic
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_OnSubmit:
     m_PersistentCalls:
       m_Calls: []
@@ -2023,6 +2035,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1929159973}
   m_CullTransparentMesh: 1
+--- !u!114 &2126585385 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7865686370484569442, guid: 9848b22fcf7b87a43a7f072712afa0b3, type: 3}
+  m_PrefabInstance: {fileID: 8769003769834678537}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e037bbc9ac622242a3646ed29ecd5c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioManager
 --- !u!1001 &8769003769834678537
 PrefabInstance:
   m_ObjectHideFlags: 0
