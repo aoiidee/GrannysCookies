@@ -64,7 +64,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -102,7 +102,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -127,37 +127,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: animation_fruit-Sheet_0
-      rect:
-        serializedVersion: 2
-        x: 1484
-        y: 201
-        width: 135
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f25cd6b63dc519370800000000000000
-      internalID: 8327539249094968623
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: animation_fruit-Sheet_1
       rect:
         serializedVersion: 2
-        x: 1964
-        y: 173
-        width: 268
-        height: 97
+        x: 1440
+        y: 0
+        width: 480
+        height: 270
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -174,12 +152,12 @@ TextureImporter:
       name: animation_fruit-Sheet_2
       rect:
         serializedVersion: 2
-        x: 2434
-        y: 144
-        width: 279
-        height: 126
+        x: 1920
+        y: 0
+        width: 480
+        height: 270
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -196,12 +174,12 @@ TextureImporter:
       name: animation_fruit-Sheet_3
       rect:
         serializedVersion: 2
-        x: 2705
+        x: 2400
         y: 0
-        width: 490
+        width: 480
         height: 270
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -218,12 +196,12 @@ TextureImporter:
       name: animation_fruit-Sheet_4
       rect:
         serializedVersion: 2
-        x: 3049
+        x: 2880
         y: 0
-        width: 628
+        width: 480
         height: 270
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -240,12 +218,12 @@ TextureImporter:
       name: animation_fruit-Sheet_5
       rect:
         serializedVersion: 2
-        x: 3529
+        x: 3360
         y: 0
-        width: 4151
+        width: 480
         height: 270
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -262,12 +240,12 @@ TextureImporter:
       name: animation_fruit-Sheet_6
       rect:
         serializedVersion: 2
-        x: 1749
+        x: 3840
         y: 0
-        width: 113
-        height: 69
+        width: 480
+        height: 270
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -284,12 +262,12 @@ TextureImporter:
       name: animation_fruit-Sheet_7
       rect:
         serializedVersion: 2
-        x: 1919
+        x: 4320
         y: 0
-        width: 64
-        height: 20
+        width: 480
+        height: 270
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -306,12 +284,12 @@ TextureImporter:
       name: animation_fruit-Sheet_8
       rect:
         serializedVersion: 2
-        x: 2227
+        x: 4800
         y: 0
-        width: 117
-        height: 90
+        width: 480
+        height: 270
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -328,12 +306,12 @@ TextureImporter:
       name: animation_fruit-Sheet_9
       rect:
         serializedVersion: 2
-        x: 2358
+        x: 5280
         y: 0
-        width: 226
-        height: 173
+        width: 480
+        height: 270
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -346,11 +324,99 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: animation_fruit-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 480
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed297d14832a8c5498e2bfeb0c89255b
+      internalID: 1103528803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation_fruit-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 6240
+        y: 0
+        width: 480
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf948d383362994aa654751d27665c2
+      internalID: -2125945882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation_fruit-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 0
+        width: 480
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd32becdede6e854ebed21102d1253fe
+      internalID: -422662637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation_fruit-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 0
+        width: 480
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33484d84a3b6b6c47be991286afcf4e6
+      internalID: -340789824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 32c9f149bd5ce794fb3fb780c31abc2a
     internalID: 0
     vertices: []
     indices: 
@@ -358,10 +424,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":16.0,"y":1.0},"gridSpriteSize":{"x":480.0,"y":270.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       animation_fruit-Sheet_0: 8327539249094968623
       animation_fruit-Sheet_1: 7360427791950632010
+      animation_fruit-Sheet_10: 1103528803
+      animation_fruit-Sheet_11: -2125945882
+      animation_fruit-Sheet_12: -422662637
+      animation_fruit-Sheet_13: -340789824
+      animation_fruit-Sheet_14: -116638414
       animation_fruit-Sheet_2: 6115382106738794906
       animation_fruit-Sheet_3: 4110288621488254487
       animation_fruit-Sheet_4: -7752884115492465007
