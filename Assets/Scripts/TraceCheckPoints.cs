@@ -41,6 +41,6 @@ public class TraceCheckPoints : MonoBehaviour
     }
     private void EndCaptcha()
     {
-        print("End");
+        FindAnyObjectByType<PopupFunctions>().KillScene(gameObject);
     }
 }
