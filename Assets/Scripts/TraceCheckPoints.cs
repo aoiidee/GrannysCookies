@@ -43,9 +43,18 @@ public class TraceCheckPoints : MonoBehaviour
             transform.position = checkPoints[i - 1].transform.position;
         }
     }
-    private void EndCaptcha()
+    private void ResetCaptcha()
     {
-        captchaGO.SetActive(false); 
+        i = 0;
+        nextCheckPoint = checkPoints[i];
+        foreach (GameObject obj in checkPoints)
+        {
+            obj.GetComponent<Image>().color = Color.white;  
+        }
+        captchaGO.SetActive(false);
+    }
+    private void EndCaptcha()
+    {       
         try
         {
             FindAnyObjectByType<PopupFunctions>().KillScene(gameObject);
