@@ -146,6 +146,7 @@ MonoBehaviour:
   - {fileID: 2181019688589656820}
   - {fileID: 6615052362406038201}
   - {fileID: 4250735614124914805}
+  captchaGO: {fileID: 332218043789965168}
 --- !u!58 &2982883809121031137
 CircleCollider2D:
   m_ObjectHideFlags: 0

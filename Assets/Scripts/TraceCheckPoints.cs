@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class TraceCheckPoints : MonoBehaviour
 {
     [SerializeField] private GameObject[] checkPoints;
+    [SerializeField] private GameObject captchaGO;
     private GameObject nextCheckPoint;
     private int i;
     private CaptchaCycle cycle;
@@ -44,6 +45,7 @@ public class TraceCheckPoints : MonoBehaviour
     }
     private void EndCaptcha()
     {
+        captchaGO.SetActive(false); 
         try
         {
             FindAnyObjectByType<PopupFunctions>().KillScene(gameObject);
