@@ -1797,6 +1797,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PopupFunctions
   _testPrefabs:
   - {fileID: 4221291233759499282, guid: f9a2c0cf40032c146b208aaecb792757, type: 3}
+  - {fileID: 482271037878296060, guid: f81ef5e6bff6b344f8ce727d32e308f0, type: 3}
+  - {fileID: 8667916979620923613, guid: 9a26cfac797f3e1419ef2c0b777682e7, type: 3}
   testScene: 2
   rt: {fileID: 8400000, guid: d935d2c10bbbb1744b958e6c2154161c, type: 2}
   _targetPopupHeight: 5
