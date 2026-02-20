@@ -14,9 +14,11 @@ public class DuckScript : MonoBehaviour
     [SerializeField] private GameObject spawnPoint;
 
     [SerializeField] private DuckHuntManager huntManager;
+    private float startPos;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        startPos = duck.transform.position.y;
         huntManager = FindAnyObjectByType<DuckHuntManager>();
         rb = GetComponent<Rigidbody2D>();
         rb.AddForce(new Vector3(0, Random.Range(minUpForce, maxUpForce), 0), ForceMode2D.Impulse);
@@ -25,7 +27,7 @@ public class DuckScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (duck.transform.position.y < spawnPoint.transform.position.y-100)
+        if (duck.transform.position.y < startPos - 10)
         {
             Destroy(this.gameObject);
         }
