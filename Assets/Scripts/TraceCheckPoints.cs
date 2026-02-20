@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -6,9 +7,11 @@ public class TraceCheckPoints : MonoBehaviour
     [SerializeField] private GameObject[] checkPoints;
     private GameObject nextCheckPoint;
     private int i;
+    private CaptchaCycle cycle;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        cycle = GameObject.FindFirstObjectByType<CaptchaCycle>();   
         i = 0;
         nextCheckPoint = checkPoints[i];    
     }
@@ -41,6 +44,13 @@ public class TraceCheckPoints : MonoBehaviour
     }
     private void EndCaptcha()
     {
-        FindAnyObjectByType<PopupFunctions>().KillScene(gameObject);
+        try
+        {
+            FindAnyObjectByType<PopupFunctions>().KillScene(gameObject);
+        }
+        catch
+        {
+            cycle.StartCaptcha();
+        }
     }
 }
