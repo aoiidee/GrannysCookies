@@ -7,7 +7,6 @@ public class TestPointerTranslation : MonoBehaviour
     {
         print(pos);
         Vector2 testPos = c.ScreenToWorldPoint(pos * new Vector2(c.pixelWidth, c.pixelHeight));
-        //print(testPos);
         GameObject test = GameObject.CreatePrimitive(PrimitiveType.Sphere);
         test.transform.position = new Vector3(testPos.x, testPos.y, 0f);
     }
