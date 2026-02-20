@@ -1290,6 +1290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e51302a5053d17469688c6d113bcd0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DraggableUIElement
+  _draggable: 1
 --- !u!1 &1182769029
 GameObject:
   m_ObjectHideFlags: 0
@@ -1559,7 +1560,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2142601585629621872, guid: d0d27ea1532cd6141a4a548a62195a66, type: 3}
+  m_Sprite: {fileID: 7654748575969990233, guid: c08c50aa5e7a47343a5c8490070f18a9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
