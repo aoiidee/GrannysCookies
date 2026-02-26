@@ -13,7 +13,7 @@ public class DraggableUIElement : MonoBehaviour, IBeginDragHandler, IDragHandler
 {
     private Canvas parentCanvas;
     private Vector2 offset;
-    [SerializeField] private bool _draggable = true;
+    private bool _draggable = false;
 
     public Canvas ParentCanvas { get => parentCanvas; set => parentCanvas = value; }
     public bool Draggable { get => _draggable; set => _draggable = value; }

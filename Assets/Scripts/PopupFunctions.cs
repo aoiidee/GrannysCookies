@@ -28,9 +28,30 @@ public class PopupFunctions : MonoBehaviour
     public DraggableUIElement TargetPopup { get => targetPopup; set => targetPopup = value; }
     public async void TestLoadScene()
     {
-        GameObject g = Instantiate(_testPrefabs[Random.Range(0, _testPrefabs.Length)], Vector2.down * (_clearance * popupCount), Quaternion.identity);
-        loadedPopupIDs.Add(g.GetInstanceID());
-        popupCount++;
+        if(loadedPopupIDs.Count >= 1)
+        {
+            Debug.LogWarning("Not opening next minigame, previous still open");
+        }
+        else
+        {
+            GameObject g = Instantiate(_testPrefabs[Random.Range(0, _testPrefabs.Length)], Vector2.down * (_clearance * popupCount), Quaternion.identity);
+            loadedPopupIDs.Add(g.GetInstanceID());
+        }
+        
+        //popupCount++;
+    }
+
+    public async void LoadScene(int index)
+    {
+        if (loadedPopupIDs.Count >= 1)
+        {
+            Debug.LogWarning("Not opening next minigame, previous still open");
+        }
+        else
+        {
+            GameObject g = Instantiate(_testPrefabs[index], Vector2.down * (_clearance * popupCount), Quaternion.identity);
+            loadedPopupIDs.Add(g.GetInstanceID());
+        }
     }
 
     public void SetTargetPopup(DraggableUIElement target)
