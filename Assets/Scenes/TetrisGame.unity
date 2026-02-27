@@ -276,6 +276,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7045483626274075188, guid: f81ef5e6bff6b344f8ce727d32e308f0, type: 3}
+      propertyPath: stackingBlock
+      value: 
+      objectReference: {fileID: 5584989002391970660, guid: 21154cc82f35d0747b6b3c5a09ee4354, type: 3}
     - target: {fileID: 7291284459559537207, guid: f81ef5e6bff6b344f8ce727d32e308f0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
