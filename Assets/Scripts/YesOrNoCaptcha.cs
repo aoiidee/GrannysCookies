@@ -100,7 +100,7 @@ public class YesOrNoCaptcha : MonoBehaviour
         }
         catch
         {
-            cycle.StartCaptcha();
+            cycle.StartRandomCaptcha();
         }
            
     }

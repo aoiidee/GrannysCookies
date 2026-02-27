@@ -1957,7 +1957,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e51302a5053d17469688c6d113bcd0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DraggableUIElement
-  _draggable: 1
 --- !u!1 &5685885671536243699
 GameObject:
   m_ObjectHideFlags: 0
@@ -3117,6 +3116,7 @@ MonoBehaviour:
   yesOrNoCaptcha: {fileID: 1657022902914137907}
   blockCaptcha: {fileID: 4459931224948359162}
   traceCaptcha: {fileID: 332218043789965168}
+  buttonScreen: {fileID: 0}
 --- !u!1 &9022867669463703151
 GameObject:
   m_ObjectHideFlags: 0
