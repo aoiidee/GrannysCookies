@@ -6,6 +6,8 @@ using UnityEngine.InputSystem;
 public class DropBlocks : MonoBehaviour
 {
     [SerializeField] private GameObject stackingBlock;
+    [SerializeField] private GameObject stackingBlockLong;
+    [SerializeField] private GameObject stackingBlockLShape;
     [SerializeField] private GameObject dropBlockPrefab;
     [SerializeField] private float dropperSpeed;
     [SerializeField] private Vector2 leftPoint;
@@ -23,7 +25,7 @@ public class DropBlocks : MonoBehaviour
     {
         if(canDrop)
         {
-            GameObject temp = Instantiate(stackingBlock, transform.position, Quaternion.identity);
+            GameObject temp = Instantiate(GetBlock(), transform.position, Quaternion.identity);
             temp.transform.parent = dropBlockPrefab.transform;
             canDrop = false;
             StartCoroutine(DropDelay());
@@ -37,6 +39,17 @@ public class DropBlocks : MonoBehaviour
     private void SwapSpeed()
     {
         dropperSpeed = -dropperSpeed;   
+    }
+    private GameObject GetBlock()
+    {
+        int choice = Random.Range(0, 3);    
+        switch(choice)
+        {
+            case 0: return stackingBlock;
+            case 1: return stackingBlockLong;
+            case 2: return stackingBlockLShape;
+                default: return stackingBlock;
+        }
     }
     // Update is called once per frame
     void Update()

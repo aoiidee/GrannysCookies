@@ -242,11 +242,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DropBlocks
   stackingBlock: {fileID: 5584989002391970660, guid: 21154cc82f35d0747b6b3c5a09ee4354, type: 3}
+  stackingBlockLong: {fileID: 5584989002391970660, guid: a45528ac9141e9b47a70917446877387, type: 3}
+  stackingBlockLShape: {fileID: 5584989002391970660, guid: 41d033ab32f3d2e4686103b4a7a43f28, type: 3}
   dropBlockPrefab: {fileID: 482271037878296060}
+  virusBlock: {fileID: 5584989002391970660, guid: dc70796d55a4faa499ea89c8d0bbfc68, type: 3}
   dropperSpeed: 4
   leftPoint: {x: -3, y: 4}
   rightPoint: {x: 3, y: 4}
   dropCoolDown: 0.5
+  virusCount: 0
 --- !u!50 &7733921899741118244
 Rigidbody2D:
   serializedVersion: 5
@@ -630,7 +634,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e51302a5053d17469688c6d113bcd0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DraggableUIElement
-  _draggable: 1
 --- !u!114 &5438497501016297573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -980,8 +983,8 @@ Transform:
   m_GameObject: {fileID: 6940804558541221674}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0058, y: 2.73, z: 0}
-  m_LocalScale: {x: 8.821676, y: 0.05, z: 1}
+  m_LocalPosition: {x: -0.0067, y: 2.73, z: 0}
+  m_LocalScale: {x: 8.796976, y: 0.05, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8871958902697321531}
