@@ -23,9 +23,9 @@ public class TraceCheckPoints : MonoBehaviour
             if(collision.gameObject == nextCheckPoint)
             {
                 nextCheckPoint.GetComponent<Image>().color = Color.green;
-                if (i >= 3)
+                if (i >= 5)
                 {
-                    i = 4;
+                    i = 6;
                     EndCaptcha();   
                 }
                 else

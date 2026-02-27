@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: 01f7d7867cfb4b040bc6bc78f842efae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4336999989762768514
+    second: animation_shoji-Sheet_0
+  - first:
+      213: 904458459221815594
+    second: animation_shoji-Sheet_1
+  - first:
+      213: 6821645208115846241
+    second: animation_shoji-Sheet_2
+  - first:
+      213: 3234492551660944837
+    second: animation_shoji-Sheet_3
+  - first:
+      213: -877115438707974350
+    second: animation_shoji-Sheet_4
+  - first:
+      213: -4544820737543792924
+    second: animation_shoji-Sheet_5
+  - first:
+      213: 3678510975488773602
+    second: animation_shoji-Sheet_6
+  - first:
+      213: 7614035183645650604
+    second: animation_shoji-Sheet_7
+  - first:
+      213: 3637166568662049913
+    second: animation_shoji-Sheet_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: animation_shoji-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 201
+        width: 135
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28ebea4238e103c30800000000000000
+      internalID: 4336999989762768514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation_shoji-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 0
+        width: 64
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2173083d284d8c00800000000000000
+      internalID: 904458459221815594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation_shoji-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 173
+        width: 268
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c9d759c2a5bae50800000000000000
+      internalID: 6821645208115846241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation_shoji-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 0
+        width: 355
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cdb562b6d933ec20800000000000000
+      internalID: 3234492551660944837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation_shoji-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2705
+        y: 0
+        width: 490
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23fdcc8d72cd3d3f0800000000000000
+      internalID: -877115438707974350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation_shoji-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 3049
+        y: 0
+        width: 628
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e69fd26e9d8de0c0800000000000000
+      internalID: -4544820737543792924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation_shoji-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 3529
+        y: 0
+        width: 4151
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed426c1e32bc0330800000000000000
+      internalID: 3678510975488773602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation_shoji-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 0
+        width: 113
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae668c98ac7aa960800000000000000
+      internalID: 7614035183645650604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation_shoji-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2227
+        y: 0
+        width: 117
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 974270249bfc97230800000000000000
+      internalID: 3637166568662049913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      animation_shoji-Sheet_0: 4336999989762768514
+      animation_shoji-Sheet_1: 904458459221815594
+      animation_shoji-Sheet_2: 6821645208115846241
+      animation_shoji-Sheet_3: 3234492551660944837
+      animation_shoji-Sheet_4: -877115438707974350
+      animation_shoji-Sheet_5: -4544820737543792924
+      animation_shoji-Sheet_6: 3678510975488773602
+      animation_shoji-Sheet_7: 7614035183645650604
+      animation_shoji-Sheet_8: 3637166568662049913
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
