@@ -62,7 +62,7 @@ public class TraceCheckPoints : MonoBehaviour
         }
         catch
         {
-            cycle.StartCaptcha();
+            cycle.StartRandomCaptcha();
         }
     }
 }

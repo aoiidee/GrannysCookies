@@ -72,7 +72,7 @@ public class BlockCaptcha : MonoBehaviour
         }
         catch
         {
-            cycle.StartCaptcha();
+            cycle.StartRandomCaptcha();
         }
     }
 }
