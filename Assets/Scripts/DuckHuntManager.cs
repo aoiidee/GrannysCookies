@@ -19,6 +19,8 @@ public class DuckHuntManager : MonoBehaviour
 
     [SerializeField] private Camera c;
 
+    
+
     public Vector2 AdjustedMouseClickPos { get => adjustedMouseClickPos; set => adjustedMouseClickPos = value; }
 
     public void AdjustedClick(Vector2 pos)
@@ -29,6 +31,7 @@ public class DuckHuntManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        
         duckScore = 0;
         filler = 0;
         StartCoroutine(Spawn());
@@ -56,6 +59,7 @@ public class DuckHuntManager : MonoBehaviour
         if (duckScore >= reqScore)
         {
             filler = 100;
+           
             Destroy(gameManager.gameObject);
         }
     }
