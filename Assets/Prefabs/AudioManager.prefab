@@ -186,6 +186,30 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 65bc8c1137dc0a34ba7f1f56996e5b8f, type: 3}
     - {fileID: 8300000, guid: af2471351568bcd4c9d7929348c5d9cd, type: 3}
     _chooseAtRandom: 1
+  - _clipName: click
+    _clips:
+    - {fileID: 8300000, guid: e3abd4619988bd543b66c3270374a50b, type: 3}
+    _chooseAtRandom: 1
+  - _clipName: minigameComplete
+    _clips:
+    - {fileID: 8300000, guid: c80b5ce2c81b65f468b9767dc6ec8799, type: 3}
+    _chooseAtRandom: 1
+  - _clipName: notification
+    _clips:
+    - {fileID: 8300000, guid: c9682821554feb943a62605069f43804, type: 3}
+    _chooseAtRandom: 1
+  - _clipName: explosion
+    _clips:
+    - {fileID: 8300000, guid: b0bb1e692254cff44b3ceca0182c5c5c, type: 3}
+    _chooseAtRandom: 1
+  - _clipName: VirusDrone
+    _clips:
+    - {fileID: 8300000, guid: 44117699e6273db40b71c37a5a587dfe, type: 3}
+    _chooseAtRandom: 1
+  - _clipName: VirusNotif
+    _clips:
+    - {fileID: 8300000, guid: b0f61bffc6071be4183369ac731b6032, type: 3}
+    _chooseAtRandom: 1
   _musicClips:
   - {fileID: 8300000, guid: 7c5da7becaf22974990ef0e516e1b780, type: 3}
   - {fileID: 8300000, guid: 268b3375ecb1cbb49b0d6d6504af9336, type: 3}
