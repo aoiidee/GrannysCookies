@@ -201,6 +201,7 @@ MonoBehaviour:
   - _clipName: explosion
     _clips:
     - {fileID: 8300000, guid: b0bb1e692254cff44b3ceca0182c5c5c, type: 3}
+    - {fileID: 8300000, guid: 19a67d021951fd34e84d8ba0a37520b0, type: 3}
     _chooseAtRandom: 1
   - _clipName: VirusDrone
     _clips:
@@ -209,6 +210,28 @@ MonoBehaviour:
   - _clipName: VirusNotif
     _clips:
     - {fileID: 8300000, guid: b0f61bffc6071be4183369ac731b6032, type: 3}
+    - {fileID: 8300000, guid: 062cdcb10bb9d9e4e95b5c9b5d6dff93, type: 3}
+    _chooseAtRandom: 1
+  - _clipName: Crack
+    _clips:
+    - {fileID: 8300000, guid: b1359b54517ab51408ef517f19e617d4, type: 3}
+    - {fileID: 8300000, guid: 5f6d2dd3066da654eb2e7f69f573375f, type: 3}
+    - {fileID: 8300000, guid: f91cd1864f2bdbd44839ea5d1327b3cf, type: 3}
+    - {fileID: 8300000, guid: 226417c5a7d1bf74caaf4fede9801a7a, type: 3}
+    - {fileID: 8300000, guid: ef9db242c8c46ab4aa3a70e4df579545, type: 3}
+    _chooseAtRandom: 1
+  - _clipName: Alarm
+    _clips:
+    - {fileID: 8300000, guid: 38ac56e42fa4c7f418080d6caf5e064b, type: 3}
+    _chooseAtRandom: 1
+  - _clipName: FruitSpawn
+    _clips:
+    - {fileID: 8300000, guid: 9bd9120a7e6cb2c47b2fb971a2724797, type: 3}
+    _chooseAtRandom: 1
+  - _clipName: BlockPlace
+    _clips:
+    - {fileID: 8300000, guid: d52c32b04f3f0d64882ec69321116908, type: 3}
+    - {fileID: 8300000, guid: 81a17ee16e71d214b866c8cf89eae45d, type: 3}
     _chooseAtRandom: 1
   _musicClips:
   - {fileID: 8300000, guid: 7c5da7becaf22974990ef0e516e1b780, type: 3}

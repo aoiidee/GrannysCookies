@@ -25,6 +25,7 @@ public class DropBlocks : MonoBehaviour
     {
         if(canDrop)
         {
+            AudioManager.PlaySound("BlockPlace");
             GameObject temp = Instantiate(GetBlock(), transform.position, Quaternion.identity);
             temp.transform.parent = dropBlockPrefab.transform;
             canDrop = false;
