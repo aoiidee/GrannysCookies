@@ -23,12 +23,15 @@ public class EndLineScript : MonoBehaviour
     {
         RaycastHit2D hit;
         hit = Physics2D.Raycast(lineStart, Vector2.right,distance);
-        if (hit.collider != null && hit.collider.gameObject.layer == 6)
+        if (hit.collider != null)
         {
-            if(hit.collider.tag == "ValidBlock")
+            if(hit.collider.gameObject.layer == 6 || hit.collider.gameObject.layer == 9)
             {
-               EndGame();   
-            }
+                if (hit.collider.tag == "ValidBlock")
+                {
+                    EndGame();
+                }
+            }            
         }
     }
 }
