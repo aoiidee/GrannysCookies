@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 3b7af4b33f3b2a241985bb34b65c35fa
+guid: 6331c6679efc5664d8c36544a46c51f9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9114848826239617288
-    second: GCCursor 1_0
-  - first:
-      213: 5971402247397976711
-    second: GCCursor 1_1
+      213: 738854036169043230
+    second: Systems_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GCCursor 1_0
+      name: Systems_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 4
-        width: 19
-        height: 21
+        x: 3
+        y: 0
+        width: 58
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 809066507b27e7e70800000000000000
-      internalID: 9114848826239617288
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GCCursor 1_1
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 4
-        width: 19
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 78a2027c4beaed250800000000000000
-      internalID: 5971402247397976711
+      spriteID: e1d28bec4dfe04a00800000000000000
+      internalID: 738854036169043230
       vertices: []
       indices: 
       edges: []
@@ -160,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      GCCursor 1_0: 9114848826239617288
-      GCCursor 1_1: 5971402247397976711
+      Systems_0: 738854036169043230
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
