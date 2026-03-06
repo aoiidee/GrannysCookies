@@ -12,6 +12,11 @@ public class ProgressBar : MonoBehaviour
 
     private bool hitHalf = false;
     private bool completed = false;
+
+    public void Start()
+    {
+        PopupFunctions.minigameComplete += StartProgress;
+    }
     public void Progress(int num)
     {
         progressBar.value += num;
