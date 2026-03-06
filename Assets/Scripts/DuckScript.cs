@@ -22,6 +22,7 @@ public class DuckScript : MonoBehaviour
         huntManager = FindAnyObjectByType<DuckHuntManager>();
         rb = GetComponent<Rigidbody2D>();
         rb.AddForce(new Vector3(0, Random.Range(minUpForce, maxUpForce), 0), ForceMode2D.Impulse);
+        DuckHuntManager.DuckClick += ClickCheck;
     }
 
     // Update is called once per frame
@@ -33,18 +34,29 @@ public class DuckScript : MonoBehaviour
         }
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
-            //Vector2 worldPos = Camera.main.ScreenToWorldPoint(
-            //Mouse.current.position.ReadValue()
-            //);
-            Vector2 worldPos = huntManager.AdjustedMouseClickPos;
-            RaycastHit2D hit = Physics2D.Raycast(worldPos, Vector2.zero);
+            
+        }
+    }
 
+    public void ClickCheck(Vector2 v)
+    {
+        //Vector2 worldPos = Camera.main.ScreenToWorldPoint(
+        //Mouse.current.position.ReadValue()
+        //);
+        Vector2 worldPos = v;//huntManager.AdjustedMouseClickPos;
+        RaycastHit2D hit = Physics2D.Raycast(worldPos, Vector2.zero);
+        try
+        {
             if (hit.collider != null)
             {
                 AudioSource.PlayClipAtPoint(hitSound, transform.position);
                 huntManager.AddScore();
                 Destroy(hit.collider.gameObject);
             }
+        }
+        catch
+        {
+            Debug.Log("duck destroyed, ignoring");
         }
     }
 }

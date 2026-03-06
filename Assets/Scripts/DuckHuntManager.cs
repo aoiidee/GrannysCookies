@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System;
 
 public class DuckHuntManager : MonoBehaviour
 {
@@ -19,6 +20,8 @@ public class DuckHuntManager : MonoBehaviour
 
     [SerializeField] private Camera c;
 
+    public static Action<Vector2> DuckClick;
+
     
 
     public Vector2 AdjustedMouseClickPos { get => adjustedMouseClickPos; set => adjustedMouseClickPos = value; }
@@ -27,6 +30,7 @@ public class DuckHuntManager : MonoBehaviour
     {
         Vector2 testPos = c.ScreenToWorldPoint(pos * new Vector2(c.pixelWidth, c.pixelHeight));
         adjustedMouseClickPos = testPos;
+        DuckClick?.Invoke(adjustedMouseClickPos);
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -44,7 +48,7 @@ public class DuckHuntManager : MonoBehaviour
         {
             i = filler;
             
-            GameObject newCookie = Instantiate(cookie, new Vector3(transform.position.x+Random.Range(0,spawnOffset), transform.position.y), Quaternion.identity);
+            GameObject newCookie = Instantiate(cookie, new Vector3(transform.position.x+UnityEngine.Random.Range(0,spawnOffset), transform.position.y), Quaternion.identity);
             Debug.Log("Spawning duck");
             //newCookie.transform.SetParent(transform, false);
 
