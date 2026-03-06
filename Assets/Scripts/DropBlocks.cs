@@ -4,6 +4,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
+using static Unity.Collections.AllocatorManager;
 
 public class DropBlocks : MonoBehaviour
 {
@@ -75,8 +76,17 @@ public class DropBlocks : MonoBehaviour
     }
     private void GetNextBlock()
     {
-        int choice = Random.Range(0, 6);    
-        switch(choice)
+        int virusChance = Random.Range(0, 11);
+        int choice;    
+        if(virusChance < 7)
+        {
+            choice = Random.Range(0, 3);
+        }
+        else
+        {
+            choice = Random.Range(3, 6);
+        }
+        switch (choice)
         {
             case 0: next = stackingBlock;
                 nextBlock.sprite = next.GetComponent<SpriteRenderer>().sprite;
