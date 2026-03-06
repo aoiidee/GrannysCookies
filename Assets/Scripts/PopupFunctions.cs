@@ -8,6 +8,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections.Generic;
+using System;
 using UnityEngine.Rendering.Universal;
 
 public class PopupFunctions : MonoBehaviour
@@ -20,6 +21,8 @@ public class PopupFunctions : MonoBehaviour
     private List<int> loadedPopupIDs = new List<int>();
 
     private DraggableUIElement targetPopup;
+
+    public static Action minigameComplete;
 
     [SerializeField] private float _clearance = 50;
 
@@ -34,7 +37,7 @@ public class PopupFunctions : MonoBehaviour
         }
         else
         {
-            GameObject g = Instantiate(_testPrefabs[Random.Range(0, _testPrefabs.Length)], Vector2.down * (_clearance * popupCount), Quaternion.identity);
+            GameObject g = Instantiate(_testPrefabs[UnityEngine.Random.Range(0, _testPrefabs.Length)], Vector2.down * (_clearance * popupCount), Quaternion.identity);
             loadedPopupIDs.Add(g.GetInstanceID());
         }
         
@@ -71,7 +74,7 @@ public class PopupFunctions : MonoBehaviour
         {
             loadedPopupIDs.Remove(s.GetInstanceID());
             Destroy(s);
-            
+            minigameComplete?.Invoke();
         }
         else
         {
