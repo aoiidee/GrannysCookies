@@ -12,6 +12,8 @@ public class DropBlocks : MonoBehaviour
     [SerializeField] private GameObject stackingBlockLShape;
     [SerializeField] private GameObject dropBlockPrefab;
     [SerializeField] private GameObject virusBlock;
+    [SerializeField] private GameObject virusBlockL;
+    [SerializeField] private GameObject virusBlockLong;
     [SerializeField] private Image nextBlock;
     [SerializeField] private float dropperSpeed;
     [SerializeField] private Vector2 leftPoint;
@@ -73,17 +75,27 @@ public class DropBlocks : MonoBehaviour
     }
     private void GetNextBlock()
     {
-        int choice = Random.Range(0, 4);    
+        int choice = Random.Range(0, 6);    
         switch(choice)
         {
             case 0: next = stackingBlock;
-                nextBlock.sprite = next.GetComponent<SpriteRenderer>().sprite; break;
+                nextBlock.sprite = next.GetComponent<SpriteRenderer>().sprite;
+                nextBlock.GetComponent<Image>().color = Color.white; break;
             case 1: next = stackingBlockLong;
-                nextBlock.sprite = next.GetComponent<SpriteRenderer>().sprite; break;
+                nextBlock.sprite = next.GetComponent<SpriteRenderer>().sprite;
+                nextBlock.GetComponent<Image>().color = Color.white; break;
             case 2: next = stackingBlockLShape;
-                nextBlock.sprite = next.GetComponent<SpriteRenderer>().sprite; break;
+                nextBlock.sprite = next.GetComponent<SpriteRenderer>().sprite;
+                nextBlock.GetComponent<Image>().color = Color.white; break;
             case 3: next = virusBlock;
-                nextBlock.sprite = next.GetComponent<SpriteRenderer>().sprite; break;
+                nextBlock.sprite = next.GetComponent<SpriteRenderer>().sprite;
+                nextBlock.GetComponent<Image>().color = Color.purple; break;
+            case 4: next = virusBlockLong;
+                nextBlock.sprite = next.GetComponent<SpriteRenderer>().sprite;
+                nextBlock.GetComponent<Image>().color = Color.purple; break;
+            case 5: next = virusBlockL;
+                nextBlock.sprite = next.GetComponent<SpriteRenderer>().sprite;
+                nextBlock.GetComponent<Image>().color = Color.purple; break;
             default: next = stackingBlock; break;
         }
     }

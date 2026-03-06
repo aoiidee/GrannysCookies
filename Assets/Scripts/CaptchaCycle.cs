@@ -8,7 +8,7 @@ public class CaptchaCycle : MonoBehaviour
     private YesOrNoCaptcha yesOrNo;
     private BlockCaptcha block;
     private DraggableUIElement draggableUIElement;
-    private static int currentCaptcha = 0;
+    public static int currentCaptcha = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

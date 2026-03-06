@@ -102,6 +102,7 @@ public class PopupFunctions : MonoBehaviour
 
     public void ReloadScene()
     {
+        CaptchaCycle.currentCaptcha = 0;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

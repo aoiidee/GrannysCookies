@@ -340,6 +340,8 @@ MonoBehaviour:
   stackingBlockLShape: {fileID: 5584989002391970660, guid: 41d033ab32f3d2e4686103b4a7a43f28, type: 3}
   dropBlockPrefab: {fileID: 482271037878296060}
   virusBlock: {fileID: 5584989002391970660, guid: b1a85c581d2f6bf42ad35ae6a9632af2, type: 3}
+  virusBlockL: {fileID: 5584989002391970660, guid: e8ea8d5f36000cc4c86a3710908f184d, type: 3}
+  virusBlockLong: {fileID: 5584989002391970660, guid: 4d19d7f72d3341b46b9d4c665a26647a, type: 3}
   nextBlock: {fileID: 432526394300315416}
   dropperSpeed: 4
   leftPoint: {x: -3, y: 4}
@@ -1113,7 +1115,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 277, y: -58.394634}
+  m_AnchoredPosition: {x: 188.13998, y: -58.394634}
   m_SizeDelta: {x: 137.2084, y: 34.3021}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4595078054240901981
@@ -1153,8 +1155,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1386,7 +1388,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 264.86, y: 15.6979}
+  m_AnchoredPosition: {x: 176, y: 15.6979}
   m_SizeDelta: {x: 68.6042, y: 68.6042}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6191755557487188632
