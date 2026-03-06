@@ -10,7 +10,7 @@ public class FallingBlockLogic : MonoBehaviour
             isFalling= false;
             gameObject.tag = "ValidBlock";
         }
-        if(collision.gameObject.layer == 8)
+        if(collision.gameObject.layer == 8 && gameObject.layer != 9)
         {
             Destroy(gameObject);    
         }

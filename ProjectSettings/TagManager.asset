@@ -17,8 +17,8 @@ TagManager:
   - UI
   - FallingBlock
   - SquareChecker
-  - 
-  - 
+  - BlockDestroyer
+  - VirusBlock
   - 
   - 
   - 
