@@ -99,4 +99,9 @@ public class PopupFunctions : MonoBehaviour
             return GetObjectRoot(s.transform.parent.gameObject);
         }
     }
+
+    public void ReloadScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 }
