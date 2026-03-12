@@ -54,6 +54,7 @@ public class PopupFunctions : MonoBehaviour
         {
             GameObject g = Instantiate(_testPrefabs[index], Vector2.down * (_clearance * popupCount), Quaternion.identity);
             loadedPopupIDs.Add(g.GetInstanceID());
+            GameObject.FindAnyObjectByType<GrannyText>().DisplayDialogue();
             AudioManager.PlaySound("VirusNotif");
         }
     }

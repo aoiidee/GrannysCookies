@@ -14,6 +14,7 @@ public class LoginHandler : MonoBehaviour
         {
             Debug.Log("Password correct!");
             _content.SetActive(false);
+            GameObject.FindAnyObjectByType<GrannyText>().DisplayDialogue();
         }
         else
         {
