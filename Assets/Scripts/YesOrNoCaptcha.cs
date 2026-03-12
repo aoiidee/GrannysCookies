@@ -11,44 +11,32 @@ public class YesOrNoCaptcha : MonoBehaviour
     [SerializeField] private TMP_Text promptText;
     [SerializeField] private TMP_Text promptEndText;
     [SerializeField] protected GameObject captchaGO;
-    private int currentQuestion;
+    [SerializeField] private GameObject catDogQuestion, foodMasterQuestion, wolfGrandmaQuestion;
+    [SerializeField] private int currentQuestion;
     private CaptchaCycle cycle;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        cycle = GameObject.FindFirstObjectByType<CaptchaCycle>();      
+        cycle = GameObject.FindFirstObjectByType<CaptchaCycle>();
+        currentQuestion = 1;
     }
     /// <summary>
     /// Created both the prompt and selects the image color
     /// </summary>
     public void SetUpFirstCaptcha()
     {
-        captchaColor = Random.Range(1,4);   
-        captchaPrompt = Random.Range(1,4);
-        CreatePrompt(captchaColor,captchaPrompt);
-    }
-    private void CreatePrompt(int color,int prompt)
-    {
-        switch(color)
+        switch(currentQuestion)
         {
-            case 1: 
-                captchaImage.color = Color.red; break;
-            case 2: 
-                captchaImage.color = Color.green;break;
-            case 3: 
-                captchaImage.color = Color.blue; break;
-        }
-        switch (prompt)
-        {
-            case 1:
-                promptEndText.text = "red"; promptEndText.color = Color.red;
-                promptText.text = "This color is " + promptEndText.text; break;
-            case 2:
-                promptEndText.text = "green"; promptEndText.color = Color.green;
-                promptText.text = "This color is " + promptEndText.text; break;
-            case 3:
-                promptEndText.text = "blue"; promptEndText.color = Color.blue;
-                promptText.text = "This color is " + promptEndText.text; break;
+            case 1: catDogQuestion.SetActive(true);
+                foodMasterQuestion.SetActive(false);
+                wolfGrandmaQuestion.SetActive(false); break;
+            case 2: foodMasterQuestion.SetActive(true);
+                catDogQuestion.SetActive(false);
+                wolfGrandmaQuestion.SetActive(false); break;
+            case 3: wolfGrandmaQuestion.SetActive(true);
+                catDogQuestion.SetActive(false);
+                foodMasterQuestion.SetActive(false); break; 
+
         }
     }
     /// <summary>
@@ -56,7 +44,7 @@ public class YesOrNoCaptcha : MonoBehaviour
     /// </summary>
     public void YesButton()
     {
-        if(captchaColor == captchaPrompt)
+        if(currentQuestion == 2)
         {
             Correct();
         }
@@ -67,7 +55,7 @@ public class YesOrNoCaptcha : MonoBehaviour
     }
     public void NoButton()
     {
-        if (captchaColor != captchaPrompt)
+        if (currentQuestion == 1 || currentQuestion == 3)
         {
             Correct();
         }
@@ -79,11 +67,12 @@ public class YesOrNoCaptcha : MonoBehaviour
 
     private void Correct()
     {
-        if(currentQuestion < maxQuestions)
+        if(currentQuestion < maxQuestions - 1)
         {
             print("Correct");
-            SetUpFirstCaptcha();
             currentQuestion++;
+            SetUpFirstCaptcha();
+
         }
         else
         {
