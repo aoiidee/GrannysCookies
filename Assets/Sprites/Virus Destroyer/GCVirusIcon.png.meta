@@ -67,7 +67,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -81,7 +81,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 90
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -102,10 +102,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -133,12 +133,12 @@ TextureImporter:
       name: GCVirusIcon_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 10
-        width: 115
-        height: 110
+        x: 0
+        y: 0
+        width: 172
+        height: 127
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -155,12 +155,12 @@ TextureImporter:
       name: GCVirusIcon_1
       rect:
         serializedVersion: 2
-        x: 194
-        y: 10
-        width: 150
-        height: 88
+        x: 172
+        y: 0
+        width: 172
+        height: 127
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -177,12 +177,12 @@ TextureImporter:
       name: GCVirusIcon_2
       rect:
         serializedVersion: 2
-        x: 251
-        y: 96
-        width: 14
-        height: 24
+        x: 344
+        y: 0
+        width: 172
+        height: 127
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -199,12 +199,12 @@ TextureImporter:
       name: GCVirusIcon_3
       rect:
         serializedVersion: 2
-        x: 365
-        y: 13
-        width: 133
-        height: 104
+        x: 516
+        y: 0
+        width: 172
+        height: 127
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -221,12 +221,12 @@ TextureImporter:
       name: GCVirusIcon_4
       rect:
         serializedVersion: 2
-        x: 537
-        y: 31
-        width: 133
-        height: 70
+        x: 688
+        y: 0
+        width: 172
+        height: 127
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -243,12 +243,12 @@ TextureImporter:
       name: GCVirusIcon_5
       rect:
         serializedVersion: 2
-        x: 586
-        y: 95
-        width: 19
-        height: 22
+        x: 860
+        y: 0
+        width: 172
+        height: 127
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -265,12 +265,12 @@ TextureImporter:
       name: GCVirusIcon_6
       rect:
         serializedVersion: 2
-        x: 720
-        y: 12
-        width: 122
-        height: 106
+        x: 1032
+        y: 0
+        width: 172
+        height: 127
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -287,12 +287,12 @@ TextureImporter:
       name: GCVirusIcon_7
       rect:
         serializedVersion: 2
-        x: 892
-        y: 12
-        width: 122
-        height: 106
+        x: 1204
+        y: 0
+        width: 172
+        height: 127
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -305,77 +305,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: GCVirusIcon_8
-      rect:
-        serializedVersion: 2
-        x: 1036
-        y: 4
-        width: 153
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4192c70f45a835210800000000000000
-      internalID: 1320551213166242068
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GCVirusIcon_9
-      rect:
-        serializedVersion: 2
-        x: 1208
-        y: 4
-        width: 153
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dfb307d6f37f9d4d0800000000000000
-      internalID: -3109182215931544579
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GCVirusIcon_10
-      rect:
-        serializedVersion: 2
-        x: 565
-        y: 13
-        width: 58
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c8ee8ed8f1be13680800000000000000
-      internalID: -8776975678011019636
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a828cdc51fe74be419ea52d5d2f8868e
     internalID: 0
     vertices: []
     indices: 
@@ -383,19 +317,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":1.0},"gridSpriteSize":{"x":172.0,"y":127.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       GCVirusIcon_0: 4835118948470185324
       GCVirusIcon_1: 1393256301731641094
-      GCVirusIcon_10: -8776975678011019636
       GCVirusIcon_2: -8392508921254924966
       GCVirusIcon_3: -2396819149917062116
       GCVirusIcon_4: 6024611312718551435
       GCVirusIcon_5: -185849776967629431
       GCVirusIcon_6: -7604418325573674207
       GCVirusIcon_7: -5408571115058516957
-      GCVirusIcon_8: 1320551213166242068
-      GCVirusIcon_9: -3109182215931544579
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

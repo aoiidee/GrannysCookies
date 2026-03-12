@@ -10,7 +10,9 @@ public class RenderTextureMaker : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        RenderTexture r = new RenderTexture(256, 256, 1);
+        RectTransform rec = gameObject.GetComponent<RectTransform>();
+        RenderTexture r = new RenderTexture((int)rec.rect.width, (int)rec.rect.height, 1);
+        r.filterMode = FilterMode.Point;
         TargetCam.targetTexture = r;
         gameObject.GetComponent<RawImage>().texture = r;
     }

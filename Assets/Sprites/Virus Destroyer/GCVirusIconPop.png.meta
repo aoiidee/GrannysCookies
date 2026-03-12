@@ -1,0 +1,640 @@
+fileFormatVersion: 2
+guid: ef4cf691bc34e0245af9ca1574636bd2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8276419743305626478
+    second: GCVirusIconPop_0
+  - first:
+      213: -3779892953679611104
+    second: GCVirusIconPop_1
+  - first:
+      213: 1623012572711047663
+    second: GCVirusIconPop_2
+  - first:
+      213: 6806147011938533035
+    second: GCVirusIconPop_3
+  - first:
+      213: -5523077469324903722
+    second: GCVirusIconPop_4
+  - first:
+      213: 1880982632392193165
+    second: GCVirusIconPop_5
+  - first:
+      213: 1552748690234810425
+    second: GCVirusIconPop_6
+  - first:
+      213: -5737089735005407102
+    second: GCVirusIconPop_7
+  - first:
+      213: -549480977497382180
+    second: GCVirusIconPop_8
+  - first:
+      213: -4555350390718420810
+    second: GCVirusIconPop_9
+  - first:
+      213: 5066845709340904747
+    second: GCVirusIconPop_10
+  - first:
+      213: 4113180221152380654
+    second: GCVirusIconPop_11
+  - first:
+      213: -5084577089192813786
+    second: GCVirusIconPop_12
+  - first:
+      213: -2683308883266266219
+    second: GCVirusIconPop_13
+  - first:
+      213: -3441379043602225799
+    second: GCVirusIconPop_14
+  - first:
+      213: -7946560289372101633
+    second: GCVirusIconPop_15
+  - first:
+      213: -8050726995563004710
+    second: GCVirusIconPop_16
+  - first:
+      213: -3057436944901816035
+    second: GCVirusIconPop_17
+  - first:
+      213: 8005984286726988891
+    second: GCVirusIconPop_18
+  - first:
+      213: 1565522507986499102
+    second: GCVirusIconPop_19
+  - first:
+      213: -266269832976003767
+    second: GCVirusIconPop_20
+  - first:
+      213: -450789929287471508
+    second: GCVirusIconPop_21
+  - first:
+      213: -7820008642796324306
+    second: GCVirusIconPop_22
+  - first:
+      213: 5852217252413130406
+    second: GCVirusIconPop_23
+  - first:
+      213: 7146146934709812855
+    second: GCVirusIconPop_24
+  - first:
+      213: -256071051285014925
+    second: GCVirusIconPop_25
+  - first:
+      213: 2480563679475663940
+    second: GCVirusIconPop_26
+  - first:
+      213: 2757601413088815886
+    second: GCVirusIconPop_27
+  - first:
+      213: 1038857054304781899
+    second: GCVirusIconPop_28
+  - first:
+      213: 7954320144139664246
+    second: GCVirusIconPop_29
+  - first:
+      213: 628004033538877212
+    second: GCVirusIconPop_30
+  - first:
+      213: 7606486206196996130
+    second: GCVirusIconPop_31
+  - first:
+      213: 4296563218536428865
+    second: GCVirusIconPop_32
+  - first:
+      213: -2564855669616796047
+    second: GCVirusIconPop_33
+  - first:
+      213: -1707058626546908939
+    second: GCVirusIconPop_34
+  - first:
+      213: -8946365313782480124
+    second: GCVirusIconPop_35
+  - first:
+      213: -7465137896325979278
+    second: GCVirusIconPop_36
+  - first:
+      213: 3055606201017567892
+    second: GCVirusIconPop_37
+  - first:
+      213: 2421908562648751112
+    second: GCVirusIconPop_38
+  - first:
+      213: 2875205001764048634
+    second: GCVirusIconPop_39
+  - first:
+      213: 5492809551154792826
+    second: GCVirusIconPop_40
+  - first:
+      213: 1524299474167701096
+    second: GCVirusIconPop_41
+  - first:
+      213: -4821351147926447505
+    second: GCVirusIconPop_42
+  - first:
+      213: 3520579420733824377
+    second: GCVirusIconPop_43
+  - first:
+      213: -1543308967021277467
+    second: GCVirusIconPop_44
+  - first:
+      213: -8479857980681859359
+    second: GCVirusIconPop_45
+  - first:
+      213: -1430820158186440872
+    second: GCVirusIconPop_46
+  - first:
+      213: -883389918075255465
+    second: GCVirusIconPop_47
+  - first:
+      213: -7893650787242108906
+    second: GCVirusIconPop_48
+  - first:
+      213: 1046291746752562511
+    second: GCVirusIconPop_49
+  - first:
+      213: -3185472100074845855
+    second: GCVirusIconPop_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 90
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GCVirusIconPop_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 172
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c0d340810442d80800000000000000
+      internalID: -8276419743305626478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GCVirusIconPop_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 0
+        width: 172
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02bbce6a26f1b8bc0800000000000000
+      internalID: -3779892953679611104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GCVirusIconPop_2
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 0
+        width: 172
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe15f66f559168610800000000000000
+      internalID: 1623012572711047663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GCVirusIconPop_3
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 0
+        width: 172
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baebea795aa447e50800000000000000
+      internalID: 6806147011938533035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GCVirusIconPop_4
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 0
+        width: 172
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dafceddd461a53b0800000000000000
+      internalID: -5523077469324903722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GCVirusIconPop_5
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 0
+        width: 172
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d847a600db79a1a10800000000000000
+      internalID: 1880982632392193165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GCVirusIconPop_6
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 0
+        width: 172
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93026eaf4b87c8510800000000000000
+      internalID: 1552748690234810425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GCVirusIconPop_7
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 0
+        width: 172
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288767c4843c160b0800000000000000
+      internalID: -5737089735005407102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GCVirusIconPop_8
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 0
+        width: 172
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd22f6556f9df58f0800000000000000
+      internalID: -549480977497382180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GCVirusIconPop_9
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 0
+        width: 172
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b8aac574f428c0c0800000000000000
+      internalID: -4555350390718420810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GCVirusIconPop_10
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 0
+        width: 172
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2d0afcc35d015640800000000000000
+      internalID: 5066845709340904747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GCVirusIconPop_11
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 0
+        width: 172
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee643fa5e93f41930800000000000000
+      internalID: 4113180221152380654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GCVirusIconPop_12
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 0
+        width: 172
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b929d9314ff69b0800000000000000
+      internalID: -5084577089192813786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GCVirusIconPop_13
+      rect:
+        serializedVersion: 2
+        x: 2236
+        y: 0
+        width: 172
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59b934699c8f2cad0800000000000000
+      internalID: -2683308883266266219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GCVirusIconPop_14
+      rect:
+        serializedVersion: 2
+        x: 2408
+        y: 0
+        width: 172
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975ad983ef3cd30d0800000000000000
+      internalID: -3441379043602225799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GCVirusIconPop_15
+      rect:
+        serializedVersion: 2
+        x: 2580
+        y: 0
+        width: 172
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff320cdf48528b190800000000000000
+      internalID: -7946560289372101633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 319ecb83dfd22e742a6444c2abb916fc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":17.0,"y":1.0},"gridSpriteSize":{"x":172.0,"y":127.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      GCVirusIconPop_0: -8276419743305626478
+      GCVirusIconPop_1: -3779892953679611104
+      GCVirusIconPop_10: 5066845709340904747
+      GCVirusIconPop_11: 4113180221152380654
+      GCVirusIconPop_12: -5084577089192813786
+      GCVirusIconPop_13: -2683308883266266219
+      GCVirusIconPop_14: -3441379043602225799
+      GCVirusIconPop_15: -7946560289372101633
+      GCVirusIconPop_2: 1623012572711047663
+      GCVirusIconPop_3: 6806147011938533035
+      GCVirusIconPop_4: -5523077469324903722
+      GCVirusIconPop_5: 1880982632392193165
+      GCVirusIconPop_6: 1552748690234810425
+      GCVirusIconPop_7: -5737089735005407102
+      GCVirusIconPop_8: -549480977497382180
+      GCVirusIconPop_9: -4555350390718420810
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
