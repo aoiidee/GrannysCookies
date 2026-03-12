@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6509652637626688187}
   - component: {fileID: 7864308779190633304}
   - component: {fileID: 9138251858898098203}
+  - component: {fileID: 3914219620811003807}
   m_Layer: 0
   m_Name: Duck
   m_TagString: Untagged
@@ -119,7 +120,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &7864308779190633304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -139,6 +140,7 @@ MonoBehaviour:
   hitSound: {fileID: 8300000, guid: 16f87e8b91c4ca64c98f45f46e8ab222, type: 3}
   spawnPoint: {fileID: 4221291233759499282, guid: f9a2c0cf40032c146b208aaecb792757, type: 3}
   huntManager: {fileID: 0}
+  _animBase: {fileID: 3914219620811003807}
 --- !u!58 &9138251858898098203
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -175,3 +177,25 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+--- !u!95 &3914219620811003807
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6544272947192814366}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8763b5a8cb5b6e24a9997bc29f83d841, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

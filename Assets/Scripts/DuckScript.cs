@@ -15,6 +15,10 @@ public class DuckScript : MonoBehaviour
 
     [SerializeField] private DuckHuntManager huntManager;
     private float startPos;
+
+    private bool death;
+    [SerializeField] private Animator _animBase;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -47,17 +51,28 @@ public class DuckScript : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(worldPos, Vector2.zero);
         try
         {
-            if (hit.collider != null)
+            if (hit.collider != null && !death && gameObject == hit.collider.gameObject)
             {
-                AudioSource.PlayClipAtPoint(hitSound, transform.position);
-                huntManager.AddScore();
-                Destroy(hit.collider.gameObject);
+                death = true;
+                _animBase.Play("DuckVirusPop");
+                rb.bodyType = RigidbodyType2D.Static;
+                //AudioSource.PlayClipAtPoint(hitSound, transform.position);
+                //huntManager.AddScore();
+                //Destroy(hit.collider.gameObject);
             }
         }
         catch
         {
             Debug.Log("duck destroyed, ignoring");
         }
+    }
+
+    //called from an animation event
+    public void PostDeathSequence()
+    {
+        AudioSource.PlayClipAtPoint(hitSound, transform.position);
+        huntManager.AddScore();
+        Destroy(gameObject);
     }
 }
 
