@@ -40,8 +40,11 @@ public class GrannyText : MonoBehaviour
             textShown.text += go;
             yield return new WaitForSeconds(textSpeed);
         }
-        yield return new WaitForSeconds(textDelay);
-        EndDialogue();
+        if(index != 0)
+        {
+            yield return new WaitForSeconds(textDelay);
+            EndDialogue();
+        }
     }
     private void EndDialogue()
     {
