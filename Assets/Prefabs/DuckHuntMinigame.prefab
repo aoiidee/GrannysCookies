@@ -183,7 +183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DuckHuntManager
   spawnPoint: {fileID: 2036690467550922742}
   gameManager: {fileID: 4221291233759499282}
-  spawnRate: 0.5
+  spawnRate: 0.75
   spawnOffset: 11
   duckScore: 0
   reqScore: 15
