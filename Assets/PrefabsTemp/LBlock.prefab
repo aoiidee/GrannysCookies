@@ -314,10 +314,10 @@ GameObject:
   - component: {fileID: 2120080126376893230}
   - component: {fileID: -5513618826385820677}
   - component: {fileID: 7146450431025423880}
-  - component: {fileID: 5722167215372491819}
+  - component: {fileID: 1008627235867187530}
   m_Layer: 6
   m_Name: LBlock
-  m_TagString: Untagged
+  m_TagString: InvalidBlock
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -456,7 +456,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!50 &5722167215372491819
+--- !u!50 &1008627235867187530
 Rigidbody2D:
   serializedVersion: 5
   m_ObjectHideFlags: 0
