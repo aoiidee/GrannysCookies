@@ -50,4 +50,9 @@ public class ProgressBar : MonoBehaviour
         _almostDoneActions.Invoke();
     }
 
+    private void OnDestroy()
+    {
+        PopupFunctions.minigameComplete -= StartProgress;
+    }
+
 }
