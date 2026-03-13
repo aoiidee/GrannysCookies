@@ -35,7 +35,7 @@ public class DropBlocks : MonoBehaviour
     }
     private void DropBlock()
     {
-        if(canDrop)
+        if(canDrop && !GameObject.FindFirstObjectByType<OnResetButton>().onButton)
         {
             AudioManager.PlaySound("BlockPlace");
             GameObject temp = Instantiate(Currentblock(), transform.position, Quaternion.identity);
@@ -48,6 +48,20 @@ public class DropBlocks : MonoBehaviour
             GetNextBlock(); 
             canDrop = false;
             StartCoroutine(DropDelay());
+        }
+    }
+    public void DestroyAllBlocks()
+    {
+        viruses.Clear();
+        GameObject[] blocks = GameObject.FindGameObjectsWithTag("ValidBlock");
+        GameObject[] blocks2 = GameObject.FindGameObjectsWithTag("InvalidBlock");
+        foreach (GameObject block in blocks)
+        {
+           Destroy(block);        
+        }
+        foreach (GameObject block in blocks2)
+        {
+            Destroy(block);
         }
     }
     private void TickDown()

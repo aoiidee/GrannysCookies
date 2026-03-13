@@ -7,6 +7,7 @@ public class EndLineScript : MonoBehaviour
 {
     [SerializeField] private Vector2 lineStart;
     [SerializeField] private float distance; 
+
     private void EndGame()
     {
         print("Done");
