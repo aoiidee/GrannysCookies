@@ -27,6 +27,8 @@ public class DuckScript : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         rb.AddForce(new Vector3(0, Random.Range(minUpForce, maxUpForce), 0), ForceMode2D.Impulse);
         DuckHuntManager.DuckClick += ClickCheck;
+
+        Destroy(this.gameObject, 3);
     }
 
     // Update is called once per frame
