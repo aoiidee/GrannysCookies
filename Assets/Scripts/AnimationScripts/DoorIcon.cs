@@ -8,12 +8,18 @@ public class DoorIcon : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     [SerializeField] private Animator _AnimBase;
     private bool _isOpen = false;
 
+    [SerializeField] private GameObject _browser;
+    [SerializeField] private PopupFunctions _popUpFunctions;
+
 
     public void OnPointerDown(PointerEventData eventData)
     {
         //when clicked
-        if (!_isOpen) _AnimBase.Play("DoorOpen");
-        _isOpen = true;
+        if (!_isOpen)
+        {
+            _AnimBase.Play("DoorOpen");
+            _isOpen = true;
+        }
     }
 
     public void OnPointerEnter(PointerEventData eventData)
@@ -38,9 +44,8 @@ public class DoorIcon : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     public void OpenBrowser()
     {
         // this method is called from an animation event after the door fully opens
-        // (when implemented) should have the same functionality as the current panel -> task 1 button !!
-        // somehow render the door behind the panels when it finishes animation
-        // maybe just swap out the button for an identical functionless sprite?
-        print("BROWSER OPEN");
+
+        _browser.SetActive(true);
+        _popUpFunctions.LoadScene(2);
     }
 }
