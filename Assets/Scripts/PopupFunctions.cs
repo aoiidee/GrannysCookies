@@ -28,7 +28,13 @@ public class PopupFunctions : MonoBehaviour
 
     private int popupCount = 0;
 
+    public static PopupFunctions Instance;
+
     public DraggableUIElement TargetPopup { get => targetPopup; set => targetPopup = value; }
+    private void Start()
+    {
+        Instance = this;
+    }
     public async void TestLoadScene()
     {
         if(loadedPopupIDs.Count >= 1)
@@ -104,6 +110,9 @@ public class PopupFunctions : MonoBehaviour
     public void ReloadScene()
     {
         CaptchaCycle.currentCaptcha = 0;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        Application.Quit();
+        //SceneManager.LoadSceneAsync(0);//(SceneManager.GetActiveScene().name);
+        //SceneManager.UnloadScene(SceneManager.GetActiveScene().name);
+        Destroy(this);
     }
 }

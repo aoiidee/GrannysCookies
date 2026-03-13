@@ -6,17 +6,22 @@ using static UnityEngine.Analytics.IAnalytic;
 public class EndLineScript : MonoBehaviour
 {
     [SerializeField] private Vector2 lineStart;
-    [SerializeField] private float distance; 
-
+    [SerializeField] private float distance;
+    private PopupFunctions p;
+    private void Start()
+    {
+        p = FindAnyObjectByType<PopupFunctions>();
+    }
     private void EndGame()
     {
         print("Done");
         try
         {
-            FindAnyObjectByType<PopupFunctions>().KillScene(gameObject);
+            PopupFunctions.Instance.KillScene(gameObject);
         }
         catch
         {
+            p.KillScene(gameObject);
             Debug.LogWarning("Unable to find Popupfunctions!");
         }
     }

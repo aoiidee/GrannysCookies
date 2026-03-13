@@ -4470,6 +4470,10 @@ PrefabInstance:
       propertyPath: m_MaxValue
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 7063309440560190861, guid: 8993f639e7eb50b4ea15a3f948c8733a, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7826157329531538203, guid: 8993f639e7eb50b4ea15a3f948c8733a, type: 3}
       propertyPath: _progressSpeed
       value: 1
