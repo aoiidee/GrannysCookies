@@ -24,6 +24,7 @@ public class ProgressBar : MonoBehaviour
 
     public void StartProgress()
     {
+        if(isActiveAndEnabled)
         StartCoroutine(IncreaseProgressCoroutine());
     }
 
