@@ -184,9 +184,9 @@ MonoBehaviour:
   spawnPoint: {fileID: 2036690467550922742}
   gameManager: {fileID: 4221291233759499282}
   spawnRate: 0.5
-  spawnOffset: 12
+  spawnOffset: 11
   duckScore: 0
-  reqScore: 10
+  reqScore: 15
   filler: 0
   cookie: {fileID: 6544272947192814366, guid: 2625dad4d94d931499e2898c9ae6e3d2, type: 3}
   c: {fileID: 4081960540352002732}
