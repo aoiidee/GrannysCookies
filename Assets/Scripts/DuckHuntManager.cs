@@ -64,8 +64,8 @@ public class DuckHuntManager : MonoBehaviour
         {
             GameObject.FindAnyObjectByType<GrannyText>().DisplayDialogue();
             filler = 100;
-           
-            Destroy(gameManager.gameObject);
+            FindAnyObjectByType<PopupFunctions>().KillScene(gameObject);
+            //Destroy(gameManager.gameObject);
         }
     }
     public void AddScore()
