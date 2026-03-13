@@ -8,8 +8,6 @@ public class BlockCaptcha : MonoBehaviour
 {
     [SerializeField] private GameObject blockGO;
     [SerializeField] private GameObject captchaGO;
-    [SerializeField] private Sprite unClickedSprite;
-    [SerializeField] private Sprite ClickedSprite;
     [SerializeField] private int blockDistance;
     [SerializeField] private int greenBlockAmt;
     private CaptchaCycle cycle;
@@ -32,14 +30,14 @@ public class BlockCaptcha : MonoBehaviour
     }
     private void CreateGreenButtons(GameObject g)
     {
-        g.GetComponent<Image>().sprite = ClickedSprite; 
+        g.GetComponent<Image>().sprite = g.GetComponent<ButtonSprite>().clickedSprite;    
         g.gameObject.tag = "GreenButton";
     }
     public void MakeButtonsGreen(GameObject b)
     {
         if(b.tag == "RedButton")
         {
-            b.GetComponent<Image>().sprite = ClickedSprite;
+            b.GetComponent<Image>().sprite = b.GetComponent<ButtonSprite>().clickedSprite;
             b.gameObject.tag = "GreenButton";
             greenBlockAmt++;    
             if(greenBlockAmt >= 9)
@@ -49,7 +47,7 @@ public class BlockCaptcha : MonoBehaviour
         }
         else if(b.tag == "GreenButton")
         {
-            b.GetComponent<Image>().sprite = unClickedSprite; 
+            b.GetComponent<Image>().sprite = b.GetComponent<ButtonSprite>().unClickedSprite;
             b.gameObject.tag = "RedButton";
             greenBlockAmt--;    
         }
@@ -59,7 +57,7 @@ public class BlockCaptcha : MonoBehaviour
         GameObject[] blockList = GameObject.FindGameObjectsWithTag("GreenButton");
         foreach(GameObject g in blockList)
         {
-            g.GetComponent<Image>().sprite = unClickedSprite; 
+            g.GetComponent<Image>().sprite = g.GetComponent<ButtonSprite>().unClickedSprite;
             g.gameObject.tag = "RedButton";
         }
         greenBlockAmt = 3;
