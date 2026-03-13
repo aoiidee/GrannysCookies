@@ -3685,6 +3685,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BlockCaptcha
   blockGO: {fileID: 1321751571541339745, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
   captchaGO: {fileID: 4459931224948359162}
+  unClickedSprite: {fileID: -139325387729506679, guid: 9b7fa0e7442ed394e8ec09d931bee332, type: 3}
+  ClickedSprite: {fileID: 2210355210618618884, guid: ff50f29a8ee431e449707e7603a7e2f5, type: 3}
   blockDistance: 200
   greenBlockAmt: 3
 --- !u!114 &5567996883293293687
@@ -3846,6 +3848,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 123343098424808153}
     m_Modifications:
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -139325387729506679, guid: 9b7fa0e7442ed394e8ec09d931bee332, type: 3}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1321751571541339745, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
       propertyPath: m_Name
       value: CaptchaButton (7)
@@ -3993,6 +4015,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 123343098424808153}
     m_Modifications:
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -139325387729506679, guid: 9b7fa0e7442ed394e8ec09d931bee332, type: 3}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1321751571541339745, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
       propertyPath: m_Name
       value: CaptchaButton (5)
@@ -4140,6 +4182,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 123343098424808153}
     m_Modifications:
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -139325387729506679, guid: 9b7fa0e7442ed394e8ec09d931bee332, type: 3}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1321751571541339745, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
       propertyPath: m_Name
       value: CaptchaButton (6)
@@ -4287,6 +4349,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 123343098424808153}
     m_Modifications:
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -139325387729506679, guid: 9b7fa0e7442ed394e8ec09d931bee332, type: 3}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1321751571541339745, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
       propertyPath: m_Name
       value: CaptchaButton (4)
@@ -4434,6 +4516,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 123343098424808153}
     m_Modifications:
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -139325387729506679, guid: 9b7fa0e7442ed394e8ec09d931bee332, type: 3}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1321751571541339745, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
       propertyPath: m_Name
       value: CaptchaButton (1)
@@ -4581,6 +4683,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 123343098424808153}
     m_Modifications:
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -139325387729506679, guid: 9b7fa0e7442ed394e8ec09d931bee332, type: 3}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1321751571541339745, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
       propertyPath: m_Name
       value: CaptchaButton
@@ -4728,6 +4850,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 123343098424808153}
     m_Modifications:
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -139325387729506679, guid: 9b7fa0e7442ed394e8ec09d931bee332, type: 3}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1321751571541339745, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
       propertyPath: m_Name
       value: CaptchaButton (8)
@@ -4875,6 +5017,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 123343098424808153}
     m_Modifications:
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -139325387729506679, guid: 9b7fa0e7442ed394e8ec09d931bee332, type: 3}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1321751571541339745, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
       propertyPath: m_Name
       value: CaptchaButton (2)
@@ -5022,6 +5184,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 123343098424808153}
     m_Modifications:
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -139325387729506679, guid: 9b7fa0e7442ed394e8ec09d931bee332, type: 3}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 678877721995987471, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1321751571541339745, guid: ffde14584dc26fc4cbf56215cdbb294f, type: 3}
       propertyPath: m_Name
       value: CaptchaButton (3)
