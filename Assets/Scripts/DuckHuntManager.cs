@@ -48,7 +48,7 @@ public class DuckHuntManager : MonoBehaviour
         {
             i = filler;
             
-            GameObject newCookie = Instantiate(cookie, new Vector3(transform.position.x+UnityEngine.Random.Range(0,spawnOffset), transform.position.y), Quaternion.identity);
+            GameObject newCookie = Instantiate(cookie, new Vector3(transform.position.x+UnityEngine.Random.Range(0,spawnOffset+4), transform.position.y), Quaternion.identity);
             Debug.Log("Spawning duck");
             //newCookie.transform.SetParent(transform, false);
 

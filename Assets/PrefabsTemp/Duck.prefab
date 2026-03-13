@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 7864308779190633304}
   - component: {fileID: 9138251858898098203}
   - component: {fileID: 3914219620811003807}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Duck
-  m_TagString: Untagged
+  m_TagString: Duck
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106,7 +106,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 1.25
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 1
@@ -134,8 +134,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DuckScript
   rb: {fileID: 0}
-  minUpForce: 9
-  maxUpForce: 15
+  minUpForce: 13
+  maxUpForce: 17
   duck: {fileID: 6544272947192814366}
   hitSound: {fileID: 8300000, guid: 16f87e8b91c4ca64c98f45f46e8ab222, type: 3}
   spawnPoint: {fileID: 4221291233759499282, guid: f9a2c0cf40032c146b208aaecb792757, type: 3}
@@ -175,8 +175,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Offset: {x: 0, y: -0.0009841323}
+  m_Radius: 0.7921594
 --- !u!95 &3914219620811003807
 Animator:
   serializedVersion: 7
