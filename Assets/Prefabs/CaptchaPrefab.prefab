@@ -684,7 +684,7 @@ GameObject:
   - component: {fileID: 7562707023152657903}
   - component: {fileID: 7963791845424356971}
   m_Layer: 5
-  m_Name: Image (2)
+  m_Name: Flour
   m_TagString: CheckPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -737,7 +737,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4974126510209036157, guid: edb7dca717ee68e40a175f4c6cc0f890, type: 3}
+  m_Sprite: {fileID: 9132784678072903462, guid: e16a99bf2ead32f4893610576eedb8a4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -914,7 +914,7 @@ GameObject:
   - component: {fileID: 824628108974571729}
   - component: {fileID: 3211551609930356048}
   m_Layer: 5
-  m_Name: Image (5)
+  m_Name: Chocolate
   m_TagString: CheckPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -937,7 +937,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 123, y: -314}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 144.86, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &779052069274927363
 CanvasRenderer:
@@ -967,7 +967,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1162442978445507191, guid: 3c8e025b5a1fdc946b5a0932b62816f2, type: 3}
+  m_Sprite: {fileID: 4974126510209036157, guid: edb7dca717ee68e40a175f4c6cc0f890, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1851,7 +1851,7 @@ GameObject:
   - component: {fileID: 8198242490607608577}
   - component: {fileID: 1756030843426660697}
   m_Layer: 5
-  m_Name: Image (4)
+  m_Name: Butter
   m_TagString: CheckPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1904,7 +1904,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 9132784678072903462, guid: e16a99bf2ead32f4893610576eedb8a4, type: 3}
+  m_Sprite: {fileID: 4315908420350577335, guid: 0163793bed3c71a45a827a8452250d3f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2775,7 +2775,7 @@ GameObject:
   - component: {fileID: 2605222964646672251}
   - component: {fileID: 8205961259582905337}
   m_Layer: 5
-  m_Name: Image (3)
+  m_Name: Eggs
   m_TagString: CheckPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3026,7 +3026,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -126, y: -251.8}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 75.1, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1615229422833558230
 CanvasRenderer:
@@ -3056,7 +3056,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4315908420350577335, guid: 0163793bed3c71a45a827a8452250d3f, type: 3}
+  m_Sprite: {fileID: -1162442978445507191, guid: 3c8e025b5a1fdc946b5a0932b62816f2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
