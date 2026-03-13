@@ -40,7 +40,7 @@ public class BlockCaptcha : MonoBehaviour
             b.GetComponent<Image>().sprite = b.GetComponent<ButtonSprite>().clickedSprite;
             b.gameObject.tag = "GreenButton";
             greenBlockAmt++;    
-            if(greenBlockAmt >= 9)
+            if(greenBlockAmt >= 12)
             {
                 EndCaptcha();  
             }
