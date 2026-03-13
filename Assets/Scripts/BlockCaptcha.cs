@@ -1,12 +1,15 @@
 using NUnit.Framework;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.U2D;
 using UnityEngine.UI;
 
 public class BlockCaptcha : MonoBehaviour
 {
     [SerializeField] private GameObject blockGO;
     [SerializeField] private GameObject captchaGO;
+    [SerializeField] private Sprite unClickedSprite;
+    [SerializeField] private Sprite ClickedSprite;
     [SerializeField] private int blockDistance;
     [SerializeField] private int greenBlockAmt;
     private CaptchaCycle cycle;
@@ -29,14 +32,14 @@ public class BlockCaptcha : MonoBehaviour
     }
     private void CreateGreenButtons(GameObject g)
     {
-        g.GetComponent<Image>().color = Color.green;
+        g.GetComponent<Image>().sprite = ClickedSprite; 
         g.gameObject.tag = "GreenButton";
     }
     public void MakeButtonsGreen(GameObject b)
     {
         if(b.tag == "RedButton")
         {
-            b.GetComponent<Image>().color = Color.green;
+            b.GetComponent<Image>().sprite = ClickedSprite;
             b.gameObject.tag = "GreenButton";
             greenBlockAmt++;    
             if(greenBlockAmt >= 9)
@@ -46,7 +49,7 @@ public class BlockCaptcha : MonoBehaviour
         }
         else if(b.tag == "GreenButton")
         {
-            b.GetComponent<Image>().color = Color.red;
+            b.GetComponent<Image>().sprite = unClickedSprite; 
             b.gameObject.tag = "RedButton";
             greenBlockAmt--;    
         }
@@ -56,7 +59,7 @@ public class BlockCaptcha : MonoBehaviour
         GameObject[] blockList = GameObject.FindGameObjectsWithTag("GreenButton");
         foreach(GameObject g in blockList)
         {
-            g.GetComponent<Image>().color = Color.red;
+            g.GetComponent<Image>().sprite = unClickedSprite; 
             g.gameObject.tag = "RedButton";
         }
         greenBlockAmt = 3;
