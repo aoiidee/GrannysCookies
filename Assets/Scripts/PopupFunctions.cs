@@ -110,8 +110,8 @@ public class PopupFunctions : MonoBehaviour
     public void ReloadScene()
     {
         CaptchaCycle.currentCaptcha = 0;
-        Application.Quit();
-        //SceneManager.LoadSceneAsync(0);//(SceneManager.GetActiveScene().name);
+        //Application.Quit();
+        SceneManager.LoadSceneAsync(0);//(SceneManager.GetActiveScene().name);
         //SceneManager.UnloadScene(SceneManager.GetActiveScene().name);
         Destroy(this);
     }
