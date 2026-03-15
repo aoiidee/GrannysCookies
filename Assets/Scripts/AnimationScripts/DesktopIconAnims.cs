@@ -6,6 +6,7 @@ public class DesktopIconAnims : MonoBehaviour, IPointerEnterHandler, IPointerExi
 {
     private Button attachedButton;
     [SerializeField] private Animator _AnimBase;
+    [SerializeField] private string _soundEffect;
 
     private bool isHovering = false;
 
@@ -13,6 +14,7 @@ public class DesktopIconAnims : MonoBehaviour, IPointerEnterHandler, IPointerExi
     {
         //when clicked
         _AnimBase.Play("ButtonBasePress");
+        AudioManager.PlaySound(_soundEffect);
     }
 
     public void OnPointerEnter(PointerEventData eventData)
