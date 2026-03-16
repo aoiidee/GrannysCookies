@@ -48,4 +48,24 @@ public class DoorIcon : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         _browser.SetActive(true);
         _popUpFunctions.LoadScene(2);
     }
+
+    public void ShimmerSound()
+    {
+        AudioManager.PlaySound("DoorShimmer");
+    }
+
+    public void FastShimmerSound()
+    {
+        AudioManager.PlaySound("DoorShimmerFast");
+    }
+
+    public void BigSound()
+    {
+        AudioManager.PlaySound("DoorGrow");
+    }
+
+    public void OpenSound()
+    {
+        AudioManager.PlaySound("DoorOpen");
+    }
 }

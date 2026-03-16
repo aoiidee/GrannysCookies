@@ -273,6 +273,22 @@ MonoBehaviour:
     - {fileID: 8300000, guid: ec31abf504bf8774a8cd63cf1632baad, type: 3}
     - {fileID: 8300000, guid: 6e786431eeac7014198e492b20d83320, type: 3}
     _chooseAtRandom: 1
+  - _clipName: DoorShimmer
+    _clips:
+    - {fileID: 8300000, guid: d9f6d156d473c7b42bfebcb3f9a346fc, type: 3}
+    _chooseAtRandom: 0
+  - _clipName: DoorShimmerFast
+    _clips:
+    - {fileID: 8300000, guid: a6d22c640b89706418309b61bb6be08f, type: 3}
+    _chooseAtRandom: 0
+  - _clipName: DoorGrow
+    _clips:
+    - {fileID: 8300000, guid: 91b6b26406bdf7c49884c4803c0824df, type: 3}
+    _chooseAtRandom: 0
+  - _clipName: DoorOpen
+    _clips:
+    - {fileID: 8300000, guid: 1fd6986b7c42d2d439c9f4954ad32065, type: 3}
+    _chooseAtRandom: 0
   _musicClips:
   - {fileID: 8300000, guid: 7c5da7becaf22974990ef0e516e1b780, type: 3}
   - {fileID: 8300000, guid: 268b3375ecb1cbb49b0d6d6504af9336, type: 3}
