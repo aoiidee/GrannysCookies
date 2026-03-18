@@ -22,6 +22,7 @@ public class DesktopIconAnims : MonoBehaviour, IPointerEnterHandler, IPointerExi
         //start hovering
         isHovering = true;
         _AnimBase.Play("ButtonBaseHighlighted");
+        AudioManager.PlaySound("IconAsc");
     }
 
     public void OnPointerExit(PointerEventData eventData)
@@ -29,6 +30,7 @@ public class DesktopIconAnims : MonoBehaviour, IPointerEnterHandler, IPointerExi
         //stop hovering
         isHovering = false;
         _AnimBase.Play("ButtonBaseReturnIdle");
+        AudioManager.PlaySound("IconDes");
     }
 
     public void OnPointerUp(PointerEventData eventData)
