@@ -54,9 +54,19 @@ public class DoorIcon : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         AudioManager.PlaySound("DoorShimmer");
     }
 
-    public void FastShimmerSound()
+    public void OpenSmallSound()
     {
-        AudioManager.PlaySound("DoorShimmerFast");
+        AudioManager.PlaySound("DoorOpenSmall");
+    }
+
+    public void CloseSmallSound()
+    {
+        AudioManager.PlaySound("DoorCloseSmall");
+    }
+
+    public void SlamSound()
+    {
+        AudioManager.PlaySound("DoorSlam");
     }
 
     public void BigSound()

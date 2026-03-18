@@ -14,6 +14,9 @@ public class GrannyText : MonoBehaviour
     private Coroutine dialogueCO;
     [SerializeField] private int index = 0;
     private bool dialogueActive;
+
+    [SerializeField] private Animator _anim;
+
     void Start()
     {
         DisplayDialogue();
@@ -35,6 +38,22 @@ public class GrannyText : MonoBehaviour
         string dialogue = grannyDialogue[index];
         dialogueBox.SetActive(true);
         grannyImage.gameObject.SetActive(true);
+        if (index == 0 || index == 4)
+        {
+            _anim.Play("GrannyPortraitDefault");
+        }
+        else if (index == 1 || index == 7)
+        {
+            _anim.Play("GrannyPortraitExcited");
+        }
+        else if (index == 2 || index == 5)
+        {
+            _anim.Play("GrannyPortraitConfused");
+        }
+        else
+        {
+            _anim.Play("GrannyPortraitShocked");
+        }
         foreach (char go in dialogue)
         {
             textShown.text += go;
