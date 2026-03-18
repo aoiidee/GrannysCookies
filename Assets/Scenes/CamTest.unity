@@ -2655,7 +2655,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &725644015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6192,7 +6192,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1379283666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9010,64 +9010,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1859377700263225612, guid: 9848b22fcf7b87a43a7f072712afa0b3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4901294438659957744, guid: 9848b22fcf7b87a43a7f072712afa0b3, type: 3}
       propertyPath: m_Name
       value: AudioManager
       objectReference: {fileID: 0}
-    - target: {fileID: 7865686370484569442, guid: 9848b22fcf7b87a43a7f072712afa0b3, type: 3}
-      propertyPath: _sounds.Array.size
-      value: 23
-      objectReference: {fileID: 0}
-    - target: {fileID: 7865686370484569442, guid: 9848b22fcf7b87a43a7f072712afa0b3, type: 3}
-      propertyPath: _sounds.Array.data[18]._clipName
-      value: DoorGrow
-      objectReference: {fileID: 0}
-    - target: {fileID: 7865686370484569442, guid: 9848b22fcf7b87a43a7f072712afa0b3, type: 3}
-      propertyPath: _sounds.Array.data[19]._clipName
-      value: DoorOpen
-      objectReference: {fileID: 0}
-    - target: {fileID: 7865686370484569442, guid: 9848b22fcf7b87a43a7f072712afa0b3, type: 3}
-      propertyPath: _sounds.Array.data[20]._clipName
-      value: DoorOpenSmall
-      objectReference: {fileID: 0}
-    - target: {fileID: 7865686370484569442, guid: 9848b22fcf7b87a43a7f072712afa0b3, type: 3}
-      propertyPath: _sounds.Array.data[21]._clipName
-      value: DoorCloseSmall
-      objectReference: {fileID: 0}
-    - target: {fileID: 7865686370484569442, guid: 9848b22fcf7b87a43a7f072712afa0b3, type: 3}
-      propertyPath: _sounds.Array.data[22]._clipName
-      value: DoorSlam
-      objectReference: {fileID: 0}
-    - target: {fileID: 7865686370484569442, guid: 9848b22fcf7b87a43a7f072712afa0b3, type: 3}
-      propertyPath: _sounds.Array.data[21]._clips.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7865686370484569442, guid: 9848b22fcf7b87a43a7f072712afa0b3, type: 3}
-      propertyPath: _sounds.Array.data[22]._clips.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7865686370484569442, guid: 9848b22fcf7b87a43a7f072712afa0b3, type: 3}
-      propertyPath: '_sounds.Array.data[18]._clips.Array.data[0]'
-      value: 
-      objectReference: {fileID: 8300000, guid: 91b6b26406bdf7c49884c4803c0824df, type: 3}
-    - target: {fileID: 7865686370484569442, guid: 9848b22fcf7b87a43a7f072712afa0b3, type: 3}
-      propertyPath: '_sounds.Array.data[19]._clips.Array.data[0]'
-      value: 
-      objectReference: {fileID: 8300000, guid: 1fd6986b7c42d2d439c9f4954ad32065, type: 3}
-    - target: {fileID: 7865686370484569442, guid: 9848b22fcf7b87a43a7f072712afa0b3, type: 3}
-      propertyPath: '_sounds.Array.data[20]._clips.Array.data[0]'
-      value: 
-      objectReference: {fileID: 8300000, guid: e0328f6133dd16e419dff946ab564863, type: 3}
-    - target: {fileID: 7865686370484569442, guid: 9848b22fcf7b87a43a7f072712afa0b3, type: 3}
-      propertyPath: '_sounds.Array.data[21]._clips.Array.data[0]'
-      value: 
-      objectReference: {fileID: 8300000, guid: fb99afcf8a9a15e499741251c35b538b, type: 3}
-    - target: {fileID: 7865686370484569442, guid: 9848b22fcf7b87a43a7f072712afa0b3, type: 3}
-      propertyPath: '_sounds.Array.data[22]._clips.Array.data[0]'
-      value: 
-      objectReference: {fileID: 8300000, guid: f03718cbb2a329845a7220cb4ea238e1, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

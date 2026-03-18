@@ -25,13 +25,22 @@ public class DoorIcon : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     public void OnPointerEnter(PointerEventData eventData)
     {
         //start hovering
-        if (!_isOpen) _AnimBase.Play("DoorHoverTransition");
+
+        if (!_isOpen)
+        {
+            _AnimBase.Play("DoorHoverTransition");
+            AudioManager.PlaySound("IconAsc");
+        }
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
         //stop hovering
-        if (!_isOpen) _AnimBase.Play("DoorReturnIdle");
+        if (!_isOpen)
+        {
+            _AnimBase.Play("DoorReturnIdle");
+            AudioManager.PlaySound("IconDes");
+        }
 
     }
 
