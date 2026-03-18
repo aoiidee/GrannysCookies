@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 public class DesktopIconAnims : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler, IPointerUpHandler
 {
     private Button attachedButton;
-    [SerializeField] private Animator _AnimBase;
+    [SerializeField] private Animator _animBase;
     [SerializeField] private string _soundEffect;
 
     private bool isHovering = false;
@@ -13,7 +13,7 @@ public class DesktopIconAnims : MonoBehaviour, IPointerEnterHandler, IPointerExi
     public void OnPointerDown(PointerEventData eventData)
     {
         //when clicked
-        _AnimBase.Play("ButtonBasePress");
+        _animBase.Play("ButtonBasePress");
         AudioManager.PlaySound(_soundEffect);
     }
 
@@ -21,7 +21,7 @@ public class DesktopIconAnims : MonoBehaviour, IPointerEnterHandler, IPointerExi
     {
         //start hovering
         isHovering = true;
-        _AnimBase.Play("ButtonBaseHighlighted");
+        _animBase.Play("ButtonBaseHighlighted");
         AudioManager.PlaySound("IconAsc");
     }
 
@@ -29,14 +29,14 @@ public class DesktopIconAnims : MonoBehaviour, IPointerEnterHandler, IPointerExi
     {
         //stop hovering
         isHovering = false;
-        _AnimBase.Play("ButtonBaseReturnIdle");
+        _animBase.Play("ButtonBaseReturnIdle");
         AudioManager.PlaySound("IconDes");
     }
 
     public void OnPointerUp(PointerEventData eventData)
     {
         //when click released
-        if (isHovering) _AnimBase.Play("ButtonBaseRelease"); 
-        else _AnimBase.Play("ButtonBaseIdle");
+        if (isHovering) _animBase.Play("ButtonBaseRelease"); 
+        else _animBase.Play("ButtonBaseIdle");
     }
 }
