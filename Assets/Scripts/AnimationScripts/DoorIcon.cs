@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using System;
 
 public class DoorIcon : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler, IPointerUpHandler
 {
@@ -25,13 +26,22 @@ public class DoorIcon : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     public void OnPointerEnter(PointerEventData eventData)
     {
         //start hovering
-        if (!_isOpen) _AnimBase.Play("DoorHoverTransition");
+
+        if (!_isOpen)
+        {
+            _AnimBase.Play("DoorHoverTransition");
+            AudioManager.PlaySound("IconAsc");
+        }
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
         //stop hovering
-        if (!_isOpen) _AnimBase.Play("DoorReturnIdle");
+        if (!_isOpen)
+        {
+            _AnimBase.Play("DoorReturnIdle");
+            AudioManager.PlaySound("IconDes");
+        }
 
     }
 
@@ -47,5 +57,35 @@ public class DoorIcon : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
         _browser.SetActive(true);
         _popUpFunctions.LoadScene(2);
+    }
+
+    public void ShimmerSound()
+    {
+        AudioManager.PlaySound("DoorShimmer");
+    }
+
+    public void OpenSmallSound()
+    {
+        AudioManager.PlaySound("DoorOpenSmall");
+    }
+
+    public void CloseSmallSound()
+    {
+        AudioManager.PlaySound("DoorCloseSmall");
+    }
+
+    public void SlamSound()
+    {
+        AudioManager.PlaySound("DoorSlam");
+    }
+
+    public void BigSound()
+    {
+        AudioManager.PlaySound("DoorGrow");
+    }
+
+    public void OpenSound()
+    {
+        AudioManager.PlaySound("DoorOpen");
     }
 }

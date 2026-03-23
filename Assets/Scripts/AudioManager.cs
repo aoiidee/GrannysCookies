@@ -44,7 +44,7 @@ public class AudioManager : MonoBehaviour
 
     public static void PlaySound(string soundID, float volume = 1f)
     {
-        //instance.audioSource.PlayOneShot(instance.GetAudioClip(soundID));
+        instance.audioSource.PlayOneShot(instance.GetAudioClip(soundID));
     }
 
     public AudioClip GetAudioClip(string soundID)

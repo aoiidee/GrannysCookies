@@ -233,6 +233,82 @@ MonoBehaviour:
     - {fileID: 8300000, guid: d52c32b04f3f0d64882ec69321116908, type: 3}
     - {fileID: 8300000, guid: 81a17ee16e71d214b866c8cf89eae45d, type: 3}
     _chooseAtRandom: 1
+  - _clipName: IconAsc
+    _clips:
+    - {fileID: 8300000, guid: c4edd37519ef9274eb050d3846153319, type: 3}
+    - {fileID: 8300000, guid: e365656e93d85f343934c348c90de4d2, type: 3}
+    - {fileID: 8300000, guid: 067e9b00e53ba6c49b71f026e6479df0, type: 3}
+    _chooseAtRandom: 1
+  - _clipName: IconDes
+    _clips:
+    - {fileID: 8300000, guid: 66ae69c93dbeed94cbd566f6c5b945a1, type: 3}
+    - {fileID: 8300000, guid: 6d8c0c7b46c888241b3cb48d708dc3e7, type: 3}
+    - {fileID: 8300000, guid: ad9506a4788954944aa30225a438610d, type: 3}
+    _chooseAtRandom: 1
+  - _clipName: IconCompBeep
+    _clips:
+    - {fileID: 8300000, guid: b910fd865699f024ab2a16a661db6166, type: 3}
+    - {fileID: 8300000, guid: ebca485ba32445845a1fec6eb2c3aaa2, type: 3}
+    - {fileID: 8300000, guid: d83740d489211cd46bed200f8cbe3cf9, type: 3}
+    - {fileID: 8300000, guid: dd808918b9ad8544ba609702c98b509b, type: 3}
+    - {fileID: 8300000, guid: 60200d0dcd3da4142a77d4566d2ee6a9, type: 3}
+    _chooseAtRandom: 1
+  - _clipName: IconPaintSplat
+    _clips:
+    - {fileID: 8300000, guid: 0013b3779392f0c4289673b4892ea659, type: 3}
+    - {fileID: 8300000, guid: 6cbf1afc683155d4cb76437fae422113, type: 3}
+    - {fileID: 8300000, guid: df2e7d0b59e9a5941a13bb61bca3bfdf, type: 3}
+    - {fileID: 8300000, guid: 84847f4bffc826148b1d75b9af1ed8af, type: 3}
+    - {fileID: 8300000, guid: 3f8f5c4b91f33c14da8882609510a515, type: 3}
+    _chooseAtRandom: 1
+  - _clipName: IconFolder
+    _clips:
+    - {fileID: 8300000, guid: 7064dcb73b3097d4a8a89f0a5889bcfa, type: 3}
+    - {fileID: 8300000, guid: 4057ab31e4785b240a8934b4da1c1971, type: 3}
+    - {fileID: 8300000, guid: 938967ee2c9696142aeebc91c8073d75, type: 3}
+    - {fileID: 8300000, guid: fca4c5623736eff46af5ac0b2bd95550, type: 3}
+    - {fileID: 8300000, guid: a6f62bd8959474549a6270701ea8f7ca, type: 3}
+    _chooseAtRandom: 1
+  - _clipName: IconCardShuffle
+    _clips:
+    - {fileID: 8300000, guid: 737dbe21772f4d44bb008f8ccf7dbec0, type: 3}
+    - {fileID: 8300000, guid: d7de275088cd1c14eb53be4e3db55e23, type: 3}
+    - {fileID: 8300000, guid: 27f9380fa2e05354bb0fd894d29bcd0b, type: 3}
+    - {fileID: 8300000, guid: 1cd2ec3f846f6234eab45407f19c3a2b, type: 3}
+    - {fileID: 8300000, guid: cd657b91a16f0be4b95981eb66257a10, type: 3}
+    _chooseAtRandom: 1
+  - _clipName: IconPaperCrumple
+    _clips:
+    - {fileID: 8300000, guid: 45496757480650642a1b67c59d4c52aa, type: 3}
+    - {fileID: 8300000, guid: 4a27032cfcff871468578bc1172b4310, type: 3}
+    - {fileID: 8300000, guid: 96fb5f85286fd7a4c8eac5e7c59e5b33, type: 3}
+    - {fileID: 8300000, guid: ec31abf504bf8774a8cd63cf1632baad, type: 3}
+    - {fileID: 8300000, guid: 6e786431eeac7014198e492b20d83320, type: 3}
+    _chooseAtRandom: 1
+  - _clipName: DoorShimmer
+    _clips:
+    - {fileID: 8300000, guid: d9f6d156d473c7b42bfebcb3f9a346fc, type: 3}
+    _chooseAtRandom: 0
+  - _clipName: DoorGrow
+    _clips:
+    - {fileID: 8300000, guid: 91b6b26406bdf7c49884c4803c0824df, type: 3}
+    _chooseAtRandom: 0
+  - _clipName: DoorOpen
+    _clips:
+    - {fileID: 8300000, guid: 1fd6986b7c42d2d439c9f4954ad32065, type: 3}
+    _chooseAtRandom: 0
+  - _clipName: DoorOpenSmall
+    _clips:
+    - {fileID: 8300000, guid: e0328f6133dd16e419dff946ab564863, type: 3}
+    _chooseAtRandom: 0
+  - _clipName: DoorCloseSmall
+    _clips:
+    - {fileID: 8300000, guid: fb99afcf8a9a15e499741251c35b538b, type: 3}
+    _chooseAtRandom: 0
+  - _clipName: DoorSlam
+    _clips:
+    - {fileID: 8300000, guid: f03718cbb2a329845a7220cb4ea238e1, type: 3}
+    _chooseAtRandom: 0
   _musicClips:
   - {fileID: 8300000, guid: 7c5da7becaf22974990ef0e516e1b780, type: 3}
   - {fileID: 8300000, guid: 268b3375ecb1cbb49b0d6d6504af9336, type: 3}
