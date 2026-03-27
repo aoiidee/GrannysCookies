@@ -1,7 +1,8 @@
+using System;
 using System.Collections;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System;
 
 public class DuckHuntManager : MonoBehaviour
 {
@@ -64,6 +65,10 @@ public class DuckHuntManager : MonoBehaviour
         {
             GameObject.FindAnyObjectByType<GrannyText>().DisplayDialogue();
             filler = 100;
+            GameObject[] gos = GameObject.FindGameObjectsWithTag("Duck");
+            foreach (GameObject go in gos)
+                Destroy(go);
+           
             FindAnyObjectByType<PopupFunctions>().KillScene(gameObject);
             //Destroy(gameManager.gameObject);
         }
