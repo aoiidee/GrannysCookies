@@ -18,7 +18,7 @@ public class FuckYouButtons : MonoBehaviour, IPointerEnterHandler, IPointerExitH
     [SerializeField] private int _lowYSpawnValue;
     [SerializeField] private int _highYSpawnValue;
 
-    private bool isHovering = false;
+    //private bool isHovering = false;
 
     public void OnPointerDown(PointerEventData eventData)
     {
@@ -35,7 +35,7 @@ public class FuckYouButtons : MonoBehaviour, IPointerEnterHandler, IPointerExitH
     public void OnPointerEnter(PointerEventData eventData)
     {
         //start hovering
-        isHovering = true;
+        //isHovering = true;
         //_animBase.Play("ButtonBaseHighlighted");
         //AudioManager.PlaySound("IconAsc");
     }
@@ -43,7 +43,7 @@ public class FuckYouButtons : MonoBehaviour, IPointerEnterHandler, IPointerExitH
     public void OnPointerExit(PointerEventData eventData)
     {
         //stop hovering
-        isHovering = false;
+        //isHovering = false;
         //_animBase.Play("ButtonBaseReturnIdle");
         //AudioManager.PlaySound("IconDes");
     }
