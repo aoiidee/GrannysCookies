@@ -7,6 +7,8 @@ public class GrannyText : MonoBehaviour
 {
     [SerializeField] private string[] grannyDialogue;
     [SerializeField] private GameObject dialogueBox;
+    [SerializeField] private GameObject dialogeButton;
+    [SerializeField] private GameObject blur;
     [SerializeField] private Image grannyImage;
     [SerializeField] private TMP_Text textShown;
     [SerializeField] private float textSpeed;
@@ -33,6 +35,7 @@ public class GrannyText : MonoBehaviour
     }
     IEnumerator DialogueHandler()
     {
+        blur.SetActive(true);   
         dialogueActive = true;
         textShown.text = " ";
         string dialogue = grannyDialogue[index];
@@ -59,14 +62,12 @@ public class GrannyText : MonoBehaviour
             textShown.text += go;
             yield return new WaitForSeconds(textSpeed);
         }
-        if(index != 0)
-        {
-            yield return new WaitForSeconds(textDelay);
-            EndDialogue();
-        }
+        dialogeButton.SetActive(true);
     }
-    private void EndDialogue()
+    public void EndDialogue()
     {
+        blur.SetActive(false);  
+        dialogeButton.SetActive(false); 
         dialogueActive = false;
         index++;
         dialogueBox.SetActive(false);
