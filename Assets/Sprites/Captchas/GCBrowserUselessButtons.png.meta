@@ -1,0 +1,362 @@
+fileFormatVersion: 2
+guid: 08c7c2db966f33646834704ecf356107
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -889489069166320735
+    second: GCBrowserUselessButtons_0
+  - first:
+      213: 823536906659854282
+    second: GCBrowserUselessButtons_1
+  - first:
+      213: 1838693421129683265
+    second: GCBrowserUselessButtons_2
+  - first:
+      213: -5125141176937950819
+    second: GCBrowserUselessButtons_3
+  - first:
+      213: 8778591545017680527
+    second: GCBrowserUselessButtons_4
+  - first:
+      213: -8371644251698313163
+    second: GCBrowserUselessButtons_5
+  - first:
+      213: -5885098818337270769
+    second: GCBrowserUselessButtons_6
+  - first:
+      213: -1638627841767822179
+    second: GCBrowserUselessButtons_7
+  - first:
+      213: 7173526414650346076
+    second: GCBrowserUselessButtons_8
+  - first:
+      213: 2813671999258604002
+    second: GCBrowserUselessButtons_9
+  - first:
+      213: -9083856056903117649
+    second: GCBrowserUselessButtons_10
+  - first:
+      213: -2324704173756086197
+    second: GCBrowserUselessButtons_11
+  - first:
+      213: 1975151117606977610
+    second: GCBrowserUselessButtons_12
+  - first:
+      213: -6301472718025876612
+    second: GCBrowserUselessButtons_13
+  - first:
+      213: -7340972993163832832
+    second: GCBrowserUselessButtons_14
+  - first:
+      213: -8696255646131052145
+    second: GCBrowserUselessButtons_15
+  - first:
+      213: 1179418940806306891
+    second: GCBrowserUselessButtons_16
+  - first:
+      213: 6478532415864475616
+    second: GCBrowserUselessButtons_17
+  - first:
+      213: 7833109130665612069
+    second: GCBrowserUselessButtons_18
+  - first:
+      213: -8484963103117206802
+    second: GCBrowserUselessButtons_19
+  - first:
+      213: -8100988502526107914
+    second: GCBrowserUselessButtons_20
+  - first:
+      213: 600723236461006370
+    second: GCBrowserUselessButtons_21
+  - first:
+      213: 1452458515367942239
+    second: GCBrowserUselessButtons_22
+  - first:
+      213: -423998133717455054
+    second: GCBrowserUselessButtons_23
+  - first:
+      213: -4854738321127771507
+    second: GCBrowserUselessButtons_24
+  - first:
+      213: -1347804629379523807
+    second: GCBrowserUselessButtons_25
+  - first:
+      213: 4292773756796743337
+    second: GCBrowserUselessButtons_26
+  - first:
+      213: -882690259099634499
+    second: GCBrowserUselessButtons_27
+  - first:
+      213: 2443966896245265127
+    second: GCBrowserUselessButtons_28
+  - first:
+      213: -4087924923784698004
+    second: GCBrowserUselessButtons_29
+  - first:
+      213: 4613422492412195790
+    second: GCBrowserUselessButtons_30
+  - first:
+      213: 7724633063327638954
+    second: GCBrowserUselessButtons_31
+  - first:
+      213: 8676035924646516981
+    second: GCBrowserUselessButtons_32
+  - first:
+      213: 3953849232833974295
+    second: GCBrowserUselessButtons_33
+  - first:
+      213: 1600038942245791528
+    second: GCBrowserUselessButtons_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 116
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GCBrowserUselessButtons_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 127
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a3afb08766e7a3f0800000000000000
+      internalID: -889489069166320735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GCBrowserUselessButtons_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 0
+        width: 127
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac772ec047acd6b00800000000000000
+      internalID: 823536906659854282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GCBrowserUselessButtons_2
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 0
+        width: 127
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1415849bce9548910800000000000000
+      internalID: 1838693421129683265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GCBrowserUselessButtons_3
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 0
+        width: 127
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91d2e4f047dfd8b0800000000000000
+      internalID: -5125141176937950819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GCBrowserUselessButtons_4
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 0
+        width: 127
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82c60dcf72d3d970800000000000000
+      internalID: 8778591545017680527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GCBrowserUselessButtons_5
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 0
+        width: 127
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 538c49f68e1f1db80800000000000000
+      internalID: -8371644251698313163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 130ba6f2960ad3a458d1d34864d58dd1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":1.0},"gridSpriteSize":{"x":127.0,"y":37.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      GCBrowserUselessButtons_0: -889489069166320735
+      GCBrowserUselessButtons_1: 823536906659854282
+      GCBrowserUselessButtons_2: 1838693421129683265
+      GCBrowserUselessButtons_3: -5125141176937950819
+      GCBrowserUselessButtons_4: 8778591545017680527
+      GCBrowserUselessButtons_5: -8371644251698313163
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

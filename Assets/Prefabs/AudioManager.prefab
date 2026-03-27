@@ -309,6 +309,14 @@ MonoBehaviour:
     _clips:
     - {fileID: 8300000, guid: f03718cbb2a329845a7220cb4ea238e1, type: 3}
     _chooseAtRandom: 0
+  - _clipName: ErrorPopup
+    _clips:
+    - {fileID: 8300000, guid: 264d017c69d71e444b1e2a5475e09fc3, type: 3}
+    - {fileID: 8300000, guid: 8624c3edfb423054592447a5b9cbf7ef, type: 3}
+    - {fileID: 8300000, guid: 3264a9dc1f48a52409b27e66702609eb, type: 3}
+    - {fileID: 8300000, guid: 7e399a61132ce5f42aa56c8fa99593b5, type: 3}
+    - {fileID: 8300000, guid: ffc895ebf241dc84f9f70ea09c55e73d, type: 3}
+    _chooseAtRandom: 1
   _musicClips:
   - {fileID: 8300000, guid: 7c5da7becaf22974990ef0e516e1b780, type: 3}
   - {fileID: 8300000, guid: 268b3375ecb1cbb49b0d6d6504af9336, type: 3}

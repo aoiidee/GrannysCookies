@@ -4,7 +4,7 @@ public class ErrorPopup : MonoBehaviour
 {
     public void NotifSound()
     {
-        AudioManager.PlaySound("Notification");
+        AudioManager.PlaySound("ErrorPopup");
     }
 
     public void ErrorClose()
