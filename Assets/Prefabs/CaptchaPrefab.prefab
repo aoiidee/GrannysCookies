@@ -152,6 +152,7 @@ MonoBehaviour:
   - {fileID: 2372514622642289354}
   - {fileID: 4100766732950842295}
   captchaGO: {fileID: 332218043789965168}
+  Checkmark: {fileID: 6314874581585366480, guid: 2bff7aa7d0e3f814fa9c3353ae52c09d, type: 3}
 --- !u!58 &2982883809121031137
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -508,7 +509,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1621569821388578013
 RectTransform:
   m_ObjectHideFlags: 0
@@ -582,7 +583,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5448241665566555232
 Transform:
   m_ObjectHideFlags: 0
@@ -2291,7 +2292,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7108409152309226153
 RectTransform:
   m_ObjectHideFlags: 0

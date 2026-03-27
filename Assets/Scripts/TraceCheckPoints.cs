@@ -6,6 +6,7 @@ public class TraceCheckPoints : MonoBehaviour
 {
     [SerializeField] private GameObject[] checkPoints;
     [SerializeField] private GameObject captchaGO;
+    [SerializeField] private Sprite Checkmark;
     private GameObject nextCheckPoint;
     private int i;
     private CaptchaCycle cycle;
@@ -22,7 +23,7 @@ public class TraceCheckPoints : MonoBehaviour
         {
             if(collision.gameObject == nextCheckPoint)
             {
-                nextCheckPoint.GetComponent<Image>().color = Color.green;
+                nextCheckPoint.GetComponent<Image>().sprite = Checkmark;
                 if (i >= 5)
                 {
                     i = 6;
