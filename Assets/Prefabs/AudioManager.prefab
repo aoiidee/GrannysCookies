@@ -210,8 +210,7 @@ MonoBehaviour:
   - _clipName: VirusNotif
     _clips:
     - {fileID: 8300000, guid: b0f61bffc6071be4183369ac731b6032, type: 3}
-    - {fileID: 8300000, guid: 062cdcb10bb9d9e4e95b5c9b5d6dff93, type: 3}
-    _chooseAtRandom: 1
+    _chooseAtRandom: 0
   - _clipName: Crack
     _clips:
     - {fileID: 8300000, guid: b1359b54517ab51408ef517f19e617d4, type: 3}
@@ -316,6 +315,32 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 3264a9dc1f48a52409b27e66702609eb, type: 3}
     - {fileID: 8300000, guid: 7e399a61132ce5f42aa56c8fa99593b5, type: 3}
     - {fileID: 8300000, guid: ffc895ebf241dc84f9f70ea09c55e73d, type: 3}
+    _chooseAtRandom: 1
+  - _clipName: DogBark
+    _clips:
+    - {fileID: 8300000, guid: a367d4d70373f464ea195d615b1592f9, type: 3}
+    _chooseAtRandom: 0
+  - _clipName: DialUp
+    _clips:
+    - {fileID: 8300000, guid: 98d178ba1343db242b526c8d1c66bfcf, type: 3}
+    _chooseAtRandom: 0
+  - _clipName: WrongBuzzer
+    _clips:
+    - {fileID: 8300000, guid: 67d3d16d2c734c540b5c281ffc832c14, type: 3}
+    - {fileID: 8300000, guid: 26e05c6ae3932cf4e974406e755cb77c, type: 3}
+    - {fileID: 8300000, guid: d328e1f5df0eb644f99f02c266883ad6, type: 3}
+    - {fileID: 8300000, guid: bf2f073dfa375014a8638ba5d4ed7396, type: 3}
+    - {fileID: 8300000, guid: 92c0876e6873ff34e9ba4221f933cb7a, type: 3}
+    _chooseAtRandom: 1
+  - _clipName: CorrectBell
+    _clips:
+    - {fileID: 8300000, guid: 220d6440cd149e64abdc1457b97f0823, type: 3}
+    _chooseAtRandom: 0
+  - _clipName: MouseClick
+    _clips:
+    - {fileID: 8300000, guid: 647c92a44bb1b59438b79267f3f26859, type: 3}
+    - {fileID: 8300000, guid: 345ddbdaff229e24ca1b28a16446a9b5, type: 3}
+    - {fileID: 8300000, guid: d6b3acc9aa984cd44a16263dfb2cc861, type: 3}
     _chooseAtRandom: 1
   _musicClips:
   - {fileID: 8300000, guid: 7c5da7becaf22974990ef0e516e1b780, type: 3}

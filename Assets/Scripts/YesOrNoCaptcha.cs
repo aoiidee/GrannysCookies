@@ -13,6 +13,11 @@ public class YesOrNoCaptcha : MonoBehaviour
     [SerializeField] protected GameObject captchaGO;
     [SerializeField] private GameObject catDogQuestion, foodMasterQuestion, wolfGrandmaQuestion;
     [SerializeField] private int currentQuestion;
+
+    [SerializeField] private Animator _captchaPanelAnim;
+    [SerializeField] private YesButton _yB;
+    [SerializeField] private NoButton _nB;
+
     private CaptchaCycle cycle;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -29,13 +34,22 @@ public class YesOrNoCaptcha : MonoBehaviour
         {
             case 1: catDogQuestion.SetActive(true);
                 foodMasterQuestion.SetActive(false);
-                wolfGrandmaQuestion.SetActive(false); break;
+                wolfGrandmaQuestion.SetActive(false);
+                _captchaPanelAnim.Play("CaptchaWindowBloop");
+                _yB.SetButtonCorrect(false);
+                _nB.SetButtonCorrect(true); break;
             case 2: foodMasterQuestion.SetActive(true);
                 catDogQuestion.SetActive(false);
-                wolfGrandmaQuestion.SetActive(false); break;
+                wolfGrandmaQuestion.SetActive(false);
+                _captchaPanelAnim.Play("CaptchaWindowBloop");
+                _yB.SetButtonCorrect(true);
+                _nB.SetButtonCorrect(false); break;
             case 3: wolfGrandmaQuestion.SetActive(true);
                 catDogQuestion.SetActive(false);
-                foodMasterQuestion.SetActive(false); break; 
+                foodMasterQuestion.SetActive(false);
+                _captchaPanelAnim.Play("CaptchaWindowBloop2");
+                _yB.SetButtonCorrect(false);
+                _nB.SetButtonCorrect(true); break; 
 
         }
     }
@@ -82,6 +96,8 @@ public class YesOrNoCaptcha : MonoBehaviour
     public void EndCaptcha()
     {
         captchaGO.SetActive(false);
+        //If you see errors for the below code, replace the browser game object in scene with the one in CamTest
+        FindAnyObjectByType<BrowserAnims>().GetComponent<Animator>().Play("BrowserBackgroundStartup");
         currentQuestion = 0;
         try
         {
