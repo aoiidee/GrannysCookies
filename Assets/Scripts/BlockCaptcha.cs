@@ -39,7 +39,8 @@ public class BlockCaptcha : MonoBehaviour
         {
             b.GetComponent<Image>().sprite = b.GetComponent<ButtonSprite>().clickedSprite;
             b.gameObject.tag = "GreenButton";
-            greenBlockAmt++;    
+            greenBlockAmt++;
+            AudioManager.PlaySound("MouseClick");
             if(greenBlockAmt >= 9)
             {
                 EndCaptcha();  
