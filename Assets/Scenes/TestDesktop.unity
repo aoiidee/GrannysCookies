@@ -493,8 +493,8 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: -5858366229472642858, guid: de934d78349ddcb4fada5364739a111f, type: 3}
-    m_PressedSprite: {fileID: -3504319937184332810, guid: dd791eff6f0a3804f94ce2235e9c8ffc, type: 3}
+    m_HighlightedSprite: {fileID: -5858366229472642858, guid: 01b6556a48756ee4daccfee03caef280, type: 3}
+    m_PressedSprite: {fileID: -3504319937184332810, guid: 72ddf21b8e35c514996dc298bf3b818d, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -564,7 +564,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -8494483076225311193, guid: 328a8b2608808834c8799eae7878fe1f, type: 3}
+  m_Sprite: {fileID: -8494483076225311193, guid: 933216718e8b9a643a9fc2e032872c55, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1178,7 +1178,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2253492676814409416, guid: 576d66c15ec7f4f4c82da3e0697ad5ed, type: 3}
+  m_Sprite: {fileID: 2253492676814409416, guid: 3dfedc8ee6911734c97b3277428d36eb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2258,6 +2258,78 @@ MonoBehaviour:
   textDelay: 3
   index: 0
   _anim: {fileID: 82849745}
+--- !u!1 &760879927
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 760879928}
+  - component: {fileID: 760879930}
+  - component: {fileID: 760879929}
+  m_Layer: 5
+  m_Name: The Dor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &760879928
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760879927}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.4999998, y: 2.4999998, z: 2.4999998}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1439091738}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -214, y: 197}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &760879929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760879927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RawImage
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 2800000, guid: 9147afc287df05b4490d5633b8c08f40, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &760879930
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760879927}
+  m_CullTransparentMesh: 1
 --- !u!1 &781330890
 GameObject:
   m_ObjectHideFlags: 0
@@ -3276,8 +3348,8 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: -4340336562144998657, guid: 62a0410f9ede24547825d32f97335f17, type: 3}
-    m_PressedSprite: {fileID: -7005163779765056027, guid: 4ae61d460358d0e428cd2eaa482d56b1, type: 3}
+    m_HighlightedSprite: {fileID: 418076245390331140, guid: 02175e678aee9914cb434ff993ca896c, type: 3}
+    m_PressedSprite: {fileID: -7005163779765056027, guid: 3844aaed05bab374d9a34a6dbf5c17fd, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -3347,7 +3419,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6735722952171819096, guid: e254479eccfcdeb4d8dfaa1d30e41a5b, type: 3}
+  m_Sprite: {fileID: 3683122985615516555, guid: b073dd66817f20148b019bd083285836, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4077,8 +4149,8 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: -3556825429327539550, guid: 15a256ade5324a149ac3d4ff2fa0e7b0, type: 3}
-    m_PressedSprite: {fileID: -3466650319998881137, guid: bcd22622769ece24f96c6564d58d2049, type: 3}
+    m_HighlightedSprite: {fileID: -3556825429327539550, guid: 13d9b21811b19de4280bacfd80ec1cc4, type: 3}
+    m_PressedSprite: {fileID: -3466650319998881137, guid: de8d4062904948745a7e97529947c3c1, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -4148,7 +4220,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 8406338612696536411, guid: 385b7a0d8694c3c40b55a086ecd4992f, type: 3}
+  m_Sprite: {fileID: 8406338612696536411, guid: 9ea73c644ebcd514393d9ba628d094cd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5664,6 +5736,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 760879928}
   - {fileID: 55346427}
   - {fileID: 93377454}
   m_Father: {fileID: 471975610}
@@ -5693,7 +5766,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 681224808149786909, guid: b2bdaca06911be84f803df35c7e49112, type: 3}
+  m_Sprite: {fileID: 681224808149786909, guid: 5dfac51c580bb70499de723a7ba06053, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7652,7 +7725,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 199474999006963654, guid: 099cac9a9711c7549b69907a61c94cf2, type: 3}
+  m_Sprite: {fileID: 199474999006963654, guid: d91f6a43cfa1a70419187c025b2b8ff0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
