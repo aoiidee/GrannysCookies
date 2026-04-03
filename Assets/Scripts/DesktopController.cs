@@ -17,4 +17,9 @@ public class DesktopController : MonoBehaviour
     {
 
     }
+
+    public void OnRestart()
+    {
+        FindAnyObjectByType<PopupFunctions>().ReloadScene();
+    }
 }
