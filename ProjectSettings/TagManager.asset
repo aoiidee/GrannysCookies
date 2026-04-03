@@ -10,7 +10,7 @@ TagManager:
   - CheckPoint
   - InvalidBlock
   - Duck
-  - SineLoop
+  - MainCanvas
   layers:
   - Default
   - TransparentFX
