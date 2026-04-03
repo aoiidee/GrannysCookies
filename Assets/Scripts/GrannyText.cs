@@ -8,7 +8,7 @@ public class GrannyText : MonoBehaviour
     [SerializeField] private string[] grannyDialogue;
     [SerializeField] private GameObject dialogueBox;
     [SerializeField] private GameObject dialogeButton;
-    [SerializeField] private GameObject blur;
+    public GameObject blur;
     public Image grannyImage;
     [SerializeField] private TMP_Text textShown;
     [SerializeField] private float textSpeed;

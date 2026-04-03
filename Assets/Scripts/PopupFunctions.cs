@@ -89,6 +89,7 @@ public class PopupFunctions : MonoBehaviour
             {
                 EndScreen.SetActive(true);
                 GameObject.FindFirstObjectByType<GrannyText>().grannyImage.gameObject.SetActive(false);
+                GameObject.FindFirstObjectByType<GrannyText>().blur.gameObject.SetActive(false);
             }
         }
         else
