@@ -126,7 +126,7 @@ public class DropBlocks : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (drop.WasCompletedThisFrame())
+        if (drop.WasCompletedThisFrame() && !GameObject.FindFirstObjectByType<GrannyText>().dialogueActive)
         {
             DropBlock();    
         }

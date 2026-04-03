@@ -15,8 +15,7 @@ public class GrannyText : MonoBehaviour
     [SerializeField] private float textDelay;
     private Coroutine dialogueCO;
     [SerializeField] private int index = 0;
-    private bool dialogueActive;
-
+    public bool dialogueActive;
     [SerializeField] private Animator _anim;
 
     void Start()
