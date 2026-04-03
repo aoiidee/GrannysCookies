@@ -9,7 +9,7 @@ public class GrannyText : MonoBehaviour
     [SerializeField] private GameObject dialogueBox;
     [SerializeField] private GameObject dialogeButton;
     [SerializeField] private GameObject blur;
-    [SerializeField] private Image grannyImage;
+    public Image grannyImage;
     [SerializeField] private TMP_Text textShown;
     [SerializeField] private float textSpeed;
     [SerializeField] private float textDelay;

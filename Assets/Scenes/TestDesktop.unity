@@ -8161,8 +8161,9 @@ MonoBehaviour:
   testScene: 2
   rt: {fileID: 8400000, guid: d935d2c10bbbb1744b958e6c2154161c, type: 2}
   _targetPopupHeight: 5
+  EndScreen: {fileID: 664905478}
   _clearance: 50
-  popupCount: 0
+  lastGame: 0
 --- !u!224 &1409603049 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 959059955343737506, guid: 328fc9294054d8d45ba6404d9ff41d43, type: 3}

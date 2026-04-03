@@ -18,6 +18,7 @@ public class EndLineScript : MonoBehaviour
         try
         {
             GameObject.FindAnyObjectByType<GrannyText>().DisplayDialogue();
+            p.lastGame = true;
             PopupFunctions.Instance.KillScene(gameObject);
         }
         catch

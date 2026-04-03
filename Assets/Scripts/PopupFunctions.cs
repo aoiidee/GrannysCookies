@@ -17,6 +17,7 @@ public class PopupFunctions : MonoBehaviour
     [SerializeField] private int testScene;
     [SerializeField] private RenderTexture rt;
     [SerializeField] private int _targetPopupHeight = 5;
+    [SerializeField] private GameObject EndScreen;
 
     private List<int> loadedPopupIDs = new List<int>();
 
@@ -26,9 +27,11 @@ public class PopupFunctions : MonoBehaviour
 
     [SerializeField] private float _clearance = 50;
 
-    [SerializeField] private int popupCount = 0;
+    private int popupCount = 0;
 
     public static PopupFunctions Instance;
+
+    public bool lastGame = false;
 
     public DraggableUIElement TargetPopup { get => targetPopup; set => targetPopup = value; }
     private void Start()
@@ -62,7 +65,6 @@ public class PopupFunctions : MonoBehaviour
             loadedPopupIDs.Add(g.GetInstanceID());
             GameObject.FindAnyObjectByType<GrannyText>().DisplayDialogue();
             AudioManager.PlaySound("VirusNotif");
-            popupCount++;
         }
     }
 
@@ -83,6 +85,11 @@ public class PopupFunctions : MonoBehaviour
             loadedPopupIDs.Remove(s.GetInstanceID());
             Destroy(s);
             minigameComplete?.Invoke();
+            if (lastGame)
+            {
+                EndScreen.SetActive(true);
+                GameObject.FindFirstObjectByType<GrannyText>().grannyImage.gameObject.SetActive(false);
+            }
         }
         else
         {
