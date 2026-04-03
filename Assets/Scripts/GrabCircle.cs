@@ -9,15 +9,22 @@ public class GrabCircle : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
     private bool onImage;
     private bool hold;
     InputAction grab;
-    private TraceCheckPoints traceCheckPoints;  
+    private TraceCheckPoints traceCheckPoints;
+
+    [SerializeField] private Animator _anim;
+    [SerializeField] private RectTransform _spriteTransform;
     public void OnPointerEnter(PointerEventData eventData)
     {
+        AudioManager.PlaySound("IconAsc");
+        _anim.Play("TracerHoverTransition");
         onImage = true;
         //print("on image");
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
+        AudioManager.PlaySound("IconDes");
+        _anim.Play("TracerReturnIdle");
         onImage = false;
         //print("off image");
     }
@@ -34,21 +41,37 @@ public class GrabCircle : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
     {
         if(onImage && grab.WasPressedThisFrame())
         {
+            _anim.Play("TracerHeld");
             hold = true;
         }
         if(grab.WasReleasedThisFrame()) 
         {
             hold = false;
-            traceCheckPoints.ReturnToCheckPoint();  
+            traceCheckPoints.ReturnToCheckPoint();
+            _spriteTransform.position = GetComponent<RectTransform>().position;
+            if (onImage)
+            {
+                _anim.Play("TracerHoverTransition");
+            }
+            else
+            {
+                _anim.Play("TracerReturnIdle");
+            }
         }
         if(hold)
         {
             Vector2 mousePosition = Mouse.current.position.ReadValue();
             GetComponent<RectTransform>().position = mousePosition;
+            _spriteTransform.position = mousePosition;
         }
     }
     private void LateUpdate()
     {
         GetComponent<CircleCollider2D>().transform.position = GetComponent<RectTransform>().position;
+    }
+
+    public void ShimmerSound()
+    {
+        AudioManager.PlaySound("DoorShimmer");
     }
 }
