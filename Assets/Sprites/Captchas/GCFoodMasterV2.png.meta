@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5583bb503d8271b409d18e53bd1c8e70
+guid: 635957deb9f739d4c8cad1c40a023bef
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8677050718237512100
-    second: Food Master Pop-Up_0
+      213: 5699810993574608076
+    second: GCFoodMasterV2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Food Master Pop-Up_0
+      name: GCFoodMasterV2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c5ea761485ce49780800000000000000
-      internalID: -8677050718237512100
+      spriteID: ccc71e656ebc91f40800000000000000
+      internalID: 5699810993574608076
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Food Master Pop-Up_0: -8677050718237512100
+      GCFoodMasterV2_0: 5699810993574608076
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

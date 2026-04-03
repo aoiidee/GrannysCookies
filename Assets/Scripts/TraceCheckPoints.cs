@@ -9,6 +9,8 @@ public class TraceCheckPoints : MonoBehaviour
     private GameObject nextCheckPoint;
     private int i;
     private CaptchaCycle cycle;
+
+    private string s;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -22,6 +24,16 @@ public class TraceCheckPoints : MonoBehaviour
         {
             if(collision.gameObject == nextCheckPoint)
             {
+                s = "LTCP" + (i + 1).ToString() + "ActivatedTransition";
+                nextCheckPoint.GetComponent<Animator>().Play(s);
+                if (i != 5)
+                {
+                    AudioManager.PlaySound("IconAsc");
+                }
+                else
+                {
+                    AudioManager.PlaySound("CorrectBell");
+                }
                 nextCheckPoint.GetComponent<Image>().color = Color.green;
                 if (i >= 5)
                 {
@@ -54,7 +66,7 @@ public class TraceCheckPoints : MonoBehaviour
         captchaGO.SetActive(false);
     }
     private void EndCaptcha()
-    {       
+    {
         ResetCaptcha(); 
         try
         {
