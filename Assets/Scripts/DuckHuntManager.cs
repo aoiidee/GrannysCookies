@@ -63,7 +63,6 @@ public class DuckHuntManager : MonoBehaviour
     {
         if (duckScore >= reqScore)
         {
-            GameObject.FindAnyObjectByType<GrannyText>().DisplayDialogue();
             filler = 100;
             GameObject[] gos = GameObject.FindGameObjectsWithTag("Duck");
             foreach (GameObject go in gos)
