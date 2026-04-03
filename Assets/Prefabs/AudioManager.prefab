@@ -473,8 +473,7 @@ MonoBehaviour:
     - {fileID: 8300000, guid: d6b3acc9aa984cd44a16263dfb2cc861, type: 3}
     _chooseAtRandom: 1
   - _clipName: Sinewave
-    _clips:
-    - {fileID: 8300000, guid: 762e1aa9a92d6d749a8ab388795e5c6a, type: 3}
+    _clips: []
     _chooseAtRandom: 0
   _musicClips:
   - {fileID: 8300000, guid: 7c5da7becaf22974990ef0e516e1b780, type: 3}
