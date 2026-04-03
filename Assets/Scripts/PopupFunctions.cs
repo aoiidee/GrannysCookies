@@ -26,7 +26,7 @@ public class PopupFunctions : MonoBehaviour
 
     [SerializeField] private float _clearance = 50;
 
-    private int popupCount = 0;
+    [SerializeField] private int popupCount = 0;
 
     public static PopupFunctions Instance;
 
@@ -62,6 +62,7 @@ public class PopupFunctions : MonoBehaviour
             loadedPopupIDs.Add(g.GetInstanceID());
             GameObject.FindAnyObjectByType<GrannyText>().DisplayDialogue();
             AudioManager.PlaySound("VirusNotif");
+            popupCount++;
         }
     }
 

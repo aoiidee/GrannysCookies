@@ -7507,7 +7507,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7826157329531538203, guid: 8993f639e7eb50b4ea15a3f948c8733a, type: 3}
       propertyPath: _almostDoneActions.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7826157329531538203, guid: 8993f639e7eb50b4ea15a3f948c8733a, type: 3}
       propertyPath: _halfwayActions.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -7531,11 +7531,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7826157329531538203, guid: 8993f639e7eb50b4ea15a3f948c8733a, type: 3}
       propertyPath: _almostDoneActions.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7826157329531538203, guid: 8993f639e7eb50b4ea15a3f948c8733a, type: 3}
       propertyPath: _almostDoneActions.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7826157329531538203, guid: 8993f639e7eb50b4ea15a3f948c8733a, type: 3}
       propertyPath: _almostDoneActions.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
@@ -7548,11 +7548,11 @@ PrefabInstance:
     - target: {fileID: 7826157329531538203, guid: 8993f639e7eb50b4ea15a3f948c8733a, type: 3}
       propertyPath: _almostDoneActions.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 664905478}
+      objectReference: {fileID: 1301359346}
     - target: {fileID: 7826157329531538203, guid: 8993f639e7eb50b4ea15a3f948c8733a, type: 3}
       propertyPath: _almostDoneActions.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 1301359346}
+      objectReference: {fileID: 1301359344}
     - target: {fileID: 7826157329531538203, guid: 8993f639e7eb50b4ea15a3f948c8733a, type: 3}
       propertyPath: _almostDoneActions.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
@@ -7595,11 +7595,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7826157329531538203, guid: 8993f639e7eb50b4ea15a3f948c8733a, type: 3}
       propertyPath: _almostDoneActions.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SetActive
+      value: StopProgress
       objectReference: {fileID: 0}
     - target: {fileID: 7826157329531538203, guid: 8993f639e7eb50b4ea15a3f948c8733a, type: 3}
       propertyPath: _almostDoneActions.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: StopProgress
+      value: SetActive
       objectReference: {fileID: 0}
     - target: {fileID: 7826157329531538203, guid: 8993f639e7eb50b4ea15a3f948c8733a, type: 3}
       propertyPath: _almostDoneActions.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
@@ -7623,11 +7623,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7826157329531538203, guid: 8993f639e7eb50b4ea15a3f948c8733a, type: 3}
       propertyPath: _almostDoneActions.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: ProgressBar, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7826157329531538203, guid: 8993f639e7eb50b4ea15a3f948c8733a, type: 3}
       propertyPath: _almostDoneActions.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ProgressBar, Assembly-CSharp
+      value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7826157329531538203, guid: 8993f639e7eb50b4ea15a3f948c8733a, type: 3}
       propertyPath: _almostDoneActions.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
@@ -7639,7 +7639,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7826157329531538203, guid: 8993f639e7eb50b4ea15a3f948c8733a, type: 3}
       propertyPath: _almostDoneActions.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7826157329531538203, guid: 8993f639e7eb50b4ea15a3f948c8733a, type: 3}
       propertyPath: _almostDoneActions.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
@@ -8137,6 +8137,7 @@ MonoBehaviour:
   rt: {fileID: 8400000, guid: d935d2c10bbbb1744b958e6c2154161c, type: 2}
   _targetPopupHeight: 5
   _clearance: 50
+  popupCount: 0
 --- !u!224 &1409603049 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 959059955343737506, guid: 328fc9294054d8d45ba6404d9ff41d43, type: 3}
