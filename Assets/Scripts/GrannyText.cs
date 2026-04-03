@@ -73,9 +73,4 @@ public class GrannyText : MonoBehaviour
         dialogueBox.SetActive(false);
         grannyImage.gameObject.SetActive(false);
     }
-
-    public void CloseWindow()
-    {
-        AudioManager.PlaySound("MouseClick");
-    }
 }
